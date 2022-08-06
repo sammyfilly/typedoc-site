@@ -3,23 +3,32 @@
     <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>@eventProperty | TypeDoc</title>
-    <meta name="description" property="og:description" content="" />
-    <meta name="keywords" content="TypeScript documentation generator javascript open source" />
-    <meta property="og:title" content="@eventProperty">
-    <meta property="og:url" content="/tags/eventProperty/">
-    <meta property="og:site_name" content="TypeDoc Documentation Generator">
-    <meta name="twitter:card" content="summary">
+    <meta
+        name="description"
+        property="og:description"
+        content=""
+    />
+    <meta
+        name="keywords"
+        content="TypeScript documentation generator javascript open source"
+    />
+    <meta property="og:title" content="@eventProperty" />
+    <meta property="og:url" content="/tags/eventProperty/" />
+    <meta property="og:site_name" content="TypeDoc Documentation Generator" />
+    <meta name="twitter:card" content="summary" />
 
-    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700|Source+Code+Pro:400,700" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.22.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" />
-    <link rel="stylesheet" href="/css/main.css">
-    <link rel="shortcut icon" href="/favicon.ico" >
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="shortcut icon" href="/favicon.ico" />
     <script src="/scripts/toc.js" defer></script>
 </head>
 
+    <script>
+        document.documentElement.dataset.theme =
+            localStorage.getItem("tsd-theme") || "os";
+    </script>
 
     <body>
         <header>
@@ -269,6 +278,14 @@ It is equivalent to specifying <code>@group Events</code> in the comment.</p>
 </section>
 
         <footer class="container">
+    <div class="theme-container">
+        Theme
+        <select id="theme">
+            <option value="os">OS</option>
+            <option value="light">Light</option>
+            <option value="dark">Dark</option>
+        </select>
+    </div>
     <a
         href="https://github.com/TypeStrong/typedoc-site/blob/master/./tags/eventProperty.md"
         class="edit-github"

@@ -380,6 +380,11 @@
 			"type": "boolean",
 			"default": false
 		},
+		"skipErrorChecking": {
+			"description": "Do not run TypeScript's type checking before generating docs.",
+			"type": "boolean",
+			"default": false
+		},
 		"showConfig": {
 			"description": "Print the resolved configuration and exit.",
 			"type": "boolean",

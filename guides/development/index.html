@@ -285,14 +285,15 @@ All components are available on the <a href="https://typedoc.org/api/classes/App
 <h3 id="options" tabindex="-1">Options</h3>
 <p>TypeDoc provides some 30 options which determine how the project model is generated and output to disk.
 The <a href="https://typedoc.org/api/classes/Options.html">Options</a> class consolidates application options into a single location and handles type conversion.</p>
-<p>There are 10 builtin option types as specified by the <a href="https://typedoc.org/api/enums/ParameterType.html">ParameterType</a> enum.</p>
+<p>There are 11 builtin option types as specified by the <a href="https://typedoc.org/api/enums/ParameterType.html">ParameterType</a> enum.</p>
 <ul>
 <li><code>String</code> - A string</li>
 <li><code>Path</code> - A string which will be resolved to a path. Paths in config files will be resolved relative to the config directory.</li>
 <li><code>Number</code> - A number which is not <code>NaN</code></li>
 <li><code>Boolean</code> - <code>true</code> or <code>false</code></li>
 <li><code>Map</code> - Defines a map between string keys and an arbitrary type. See the <a href="https://github.com/TypeStrong/typedoc/blob/master/src/test/utils/options/declaration.test.ts#L39">tests</a> for an example.</li>
-<li><code>Mixed</code> - An arbitrary type that will just be passed through by TypeDoc.</li>
+<li><code>Mixed</code> - An object type that is passed through by TypeDoc to create specific implicit behaviour.</li>
+<li><code>Object</code> - An object type of which value keys can be overridden or extended by passing a new object.</li>
 <li><code>Array</code> - An array of strings.</li>
 <li><code>PathArray</code> - An array of paths, if specified in a config file, will be resolved relative to the config file directory.</li>
 <li><code>ModuleArray</code> - An array of modules/paths. Items will be resolved if they start with <code>.</code>.</li>

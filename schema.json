@@ -76,6 +76,10 @@
 			"type": "boolean",
 			"default": false
 		},
+		"externalSymbolLinkMappings": {
+			"description": "Define custom links for symbols not included in the documentation.",
+			"default": {}
+		},
 		"media": {
 			"description": "Specify the location with media files that should be copied to the output directory.",
 			"type": "string",

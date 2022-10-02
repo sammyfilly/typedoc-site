@@ -305,8 +305,10 @@ Entry points can be handled in one of three ways, see <a href="#entrypointstrate
 </table>
 <h3 id="exclude" tabindex="-1">exclude</h3>
 <pre class="language-bash"><code class="language-bash">$ typedoc --exclude <span class="token string">"**/*+(index|.spec|.e2e).ts"</span></code></pre>
-<p>Exclude files by the given pattern when a path is provided as source.
-Supports <a href="https://github.com/isaacs/minimatch">minimatch</a> patterns.
+<p>Exclude files by the given pattern when a path is provided as source. This option is only used to remove files from consideration as
+entry points. Unlike TypeScript's <code>exclude</code> option, it <em>cannot</em> be used to exclude files from compilation. You may want to turn on TypeScript's
+<a href="https://www.typescriptlang.org/tsconfig#skipLibCheck">--skipLibCheck</a> if you have compilation errors originating in <code>@types</code> packages.</p>
+<p>Supports <a href="https://github.com/isaacs/minimatch">minimatch</a> patterns.
 In configuration files, this option accepts an array of patterns. On the command line, it may be specified multiple times to add multiple patterns.
 If an exported member from one of your entry points is located in an excluded file, it will be excluded from the documentation.</p>
 <p>If <code>entryPointStrategy</code> is set to `packages, then you can specify package directories with this option to exclude from documentation.</p>

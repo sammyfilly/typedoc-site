@@ -255,7 +255,7 @@
 <p>You may also need to configure TypeDoc for each child package using config field <code>typedoc</code> in package.json file for TypeDoc to work properly.</p>
 <h2 id="typedoc-package-config" tabindex="-1">TypeDoc package config</h2>
 <p>Example config in child package's package.json:</p>
-<pre class="language-json"><code class="language-json"><span class="token punctuation">{</span><br>    <span class="token property">"name"</span><span class="token operator">:</span> <span class="token string">"child-package"</span><span class="token punctuation">,</span><br>    <span class="token property">"version"</span><span class="token operator">:</span> <span class="token string">"1.0.0"</span><span class="token punctuation">,</span><br>    <span class="token property">"typedoc"</span><span class="token operator">:</span> <span class="token punctuation">{</span><br>        <span class="token property">"entryPoint"</span><span class="token operator">:</span> <span class="token string">"./src/index.ts"</span><span class="token punctuation">,</span><br>        <span class="token property">"readmeFile"</span><span class="token operator">:</span> <span class="token string">"./README.md"</span><span class="token punctuation">,</span><br>        <span class="token property">"displayName"</span><span class="token operator">:</span> <span class="token string">"Child Package"</span><br>    <span class="token punctuation">}</span><br><span class="token punctuation">}</span></code></pre>
+<pre class="language-json"><code class="language-json"><span class="token punctuation">{</span><br>    <span class="token property">"name"</span><span class="token operator">:</span> <span class="token string">"child-package"</span><span class="token punctuation">,</span><br>    <span class="token property">"version"</span><span class="token operator">:</span> <span class="token string">"1.0.0"</span><span class="token punctuation">,</span><br>    <span class="token property">"typedoc"</span><span class="token operator">:</span> <span class="token punctuation">{</span><br>        <span class="token property">"entryPoint"</span><span class="token operator">:</span> <span class="token string">"./src/index.ts"</span><span class="token punctuation">,</span><br>        <span class="token property">"readmeFile"</span><span class="token operator">:</span> <span class="token string">"./README.md"</span><span class="token punctuation">,</span><br>        <span class="token property">"displayName"</span><span class="token operator">:</span> <span class="token string">"Child Package"</span><span class="token punctuation">,</span><br>        <span class="token property">"tsconfig"</span><span class="token operator">:</span> <span class="token string">"./tsconfig.lib.json"</span><br>    <span class="token punctuation">}</span><br><span class="token punctuation">}</span></code></pre>
 <blockquote>
 <p>All of these options are optional</p>
 </blockquote>
@@ -265,6 +265,8 @@
 <p>Path to the readme file that should be displayed on the index page of the package doc.</p>
 <h3 id="displayname" tabindex="-1">displayName</h3>
 <p>The name of the package that will be used when rendering the doc. If none provided, the default name will be the name of the package specified in package.json file.</p>
+<h3 id="tsconfig" tabindex="-1">tsconfig</h3>
+<p>Path of the tsconfig file to use when creating the program for compilation. If omitted, will look for <code>tsconfig.json</code> like <code>tsc</code> does.</p>
 </div>
         <div class="toc-container"></div>
     </div>

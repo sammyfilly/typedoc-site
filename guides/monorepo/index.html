@@ -23,7 +23,11 @@
     <link rel="stylesheet" href="/css/main.css" />
     <link rel="shortcut icon" href="/favicon.ico" />
     <script src="/scripts/toc.js" defer></script>
-    <script>if (location.protocol === 'http:') location.protocol = 'https:'</script>
+    <script>
+        if (location.host === "typedoc.org" && location.protocol === "http:") {
+            location.protocol = "https:";
+        }
+    </script>
 </head>
 
     <script>
@@ -251,7 +255,9 @@
 </nav>
 </div>
         <div class="typography"><h1 id="monorepo" tabindex="-1">Monorepo</h1>
-<p>TypeDoc's <code>entryPointStrategy: Packages</code> is dedicated support for monorepo projects. TypeDoc will attempt to determine entry points based on <code>package.json</code>'s <code>main</code> property (with default value <code>index.js</code>) and if it wasn't found, based on <code>types</code> property. If any of the packages given are the root of an <a href="https://docs.npmjs.com/cli/v7/using-npm/workspaces">npm Workspace</a> or a <a href="https://classic.yarnpkg.com/en/docs/workspaces/">Yarn Workspace</a> TypeDoc will find all the <code>workspaces</code> defined in the <code>package.json</code>. Each found package will be rendered by TypeDoc as a <code>module</code>.</p>
+<p>TypeDoc's <code>entryPointStrategy: packages</code> is dedicated support for monorepo projects. TypeDoc will attempt to determine entry points based on <code>package.json</code>'s <code>main</code> property (with default value <code>index.js</code>) and if it wasn't found, based on <code>types</code> property. If any of the packages given are the root of an <a href="https://docs.npmjs.com/cli/v7/using-npm/workspaces">npm Workspace</a> or a <a href="https://classic.yarnpkg.com/en/docs/workspaces/">Yarn Workspace</a> TypeDoc will find all the <code>workspaces</code> defined in the <code>package.json</code>. Each found package will be rendered by TypeDoc as a <code>module</code>.</p>
+<p><strong>Note</strong>: This means that you should give TypeDoc paths to modules in packages mode, <em>not</em> paths to the entry point.</p>
+<pre class="language-json"><code class="language-json"><span class="token punctuation">{</span><br>    <span class="token property">"entryPointStrategy"</span><span class="token operator">:</span> <span class="token string">"packages"</span><span class="token punctuation">,</span><br>    <span class="token property">"entryPoints"</span><span class="token operator">:</span> <span class="token punctuation">[</span><br>        <span class="token string">"packages/my-module"</span><span class="token punctuation">,</span><br>        <span class="token comment">// not</span><br>        <span class="token string">"packages/my-module/src/index.ts"</span><br>    <span class="token punctuation">]</span><br><span class="token punctuation">}</span></code></pre>
 <p>You may also need to configure TypeDoc for each child package using config field <code>typedoc</code> in package.json file for TypeDoc to work properly.</p>
 <h2 id="typedoc-package-config" tabindex="-1">TypeDoc package config</h2>
 <p>Example config in child package's package.json:</p>

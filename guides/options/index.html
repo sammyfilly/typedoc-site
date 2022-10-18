@@ -435,6 +435,11 @@ Useful if your project uses <a href="https://apidocjs.com/">apiDoc</a> for docum
 <h3 id="cname" tabindex="-1">cname</h3>
 <pre class="language-bash"><code class="language-bash">$ typedoc <span class="token parameter variable">--cname</span> typedoc.org</code></pre>
 <p>Create a CNAME file in the output directory with the specified text.</p>
+<h3 id="sourcelinktemplate" tabindex="-1">sourceLinkTemplate</h3>
+<pre class="language-bash"><code class="language-bash">$ typedoc <span class="token parameter variable">--gitRevision</span> <span class="token string">'https://vcs.example.com/{path}?at={gitRevision}#line={line}'</span></code></pre>
+<p>Specify a link template to be used when generating source urls. If not set, will be automatically created
+using the git remote for GitHub, GitLab, and BitBucket urls. Supports <code>{path}</code>, <code>{line}</code>, and <code>{gitRevision}</code>
+placeholders.</p>
 <h3 id="gitrevision" tabindex="-1">gitRevision</h3>
 <pre class="language-bash"><code class="language-bash">$ typedoc <span class="token parameter variable">--gitRevision</span> <span class="token operator">&lt;</span>revision<span class="token operator">|</span>branch<span class="token operator">></span></code></pre>
 <p>Use specified revision or branch instead of the last revision for linking to source files. Defaults to the last commit.</p>
@@ -443,7 +448,7 @@ Useful if your project uses <a href="https://apidocjs.com/">apiDoc</a> for docum
 <p>Use the specified git remote instead of <code>origin</code> for linking to source files in GitHub, Bitbucket, or GitLab.
 You can use <code>git remote</code> to view a list of valid remotes.
 If you are updating documentation for a forked package, you probably want to pass <code>--gitRemote upstream</code>.</p>
-<p>This may be set to a URL (staring with <code>http://</code> or <code>https://</code>), in which case TypeDoc will assume that it is
+<p>(Deprecated, will be removed in 0.24) This may be set to a URL (staring with <code>http://</code> or <code>https://</code>), in which case TypeDoc will assume that it is
 the base URL for links. Links will be created to <code>{gitRemote}/{gitRevision}/{filePath}</code>.</p>
 <h3 id="htmllang" tabindex="-1">htmlLang</h3>
 <pre class="language-bash"><code class="language-bash">$ typedoc <span class="token parameter variable">--htmlLang</span> es</code></pre>
@@ -467,6 +472,15 @@ to an order of magnitude larger in projects with many long comments.</p>
 <h3 id="cleanoutputdir" tabindex="-1">cleanOutputDir</h3>
 <pre class="language-bash"><code class="language-bash">$ typedoc <span class="token parameter variable">--cleanOutputDir</span> <span class="token boolean">false</span></code></pre>
 <p>Can be used to prevent TypeDoc from cleaning the output directory specified with <code>--out</code>.</p>
+<h3 id="titlelink" tabindex="-1">titleLink</h3>
+<pre class="language-bash"><code class="language-bash">$ typedoc <span class="token parameter variable">--titleLink</span> <span class="token string">"http://example.com"</span></code></pre>
+<p>Sets the link the title in the header points to. Defaults to the documentation homepage.</p>
+<h3 id="navigationlinks" tabindex="-1">navigationLinks</h3>
+<pre class="language-json"><code class="language-json"><span class="token comment">// typedoc.json</span><br><span class="token punctuation">{</span><br>    <span class="token property">"navigationLinks"</span><span class="token operator">:</span> <span class="token punctuation">{</span><br>        <span class="token property">"Example"</span><span class="token operator">:</span> <span class="token string">"http://example.com"</span><br>    <span class="token punctuation">}</span><br><span class="token punctuation">}</span></code></pre>
+<p>Defines additional links to be included in the page header.</p>
+<h3 id="sidebarlinks" tabindex="-1">sidebarLinks</h3>
+<pre class="language-json"><code class="language-json"><span class="token comment">// typedoc.json</span><br><span class="token punctuation">{</span><br>    <span class="token property">"sidebarLinks"</span><span class="token operator">:</span> <span class="token punctuation">{</span><br>        <span class="token property">"Example"</span><span class="token operator">:</span> <span class="token string">"http://example.com"</span><br>    <span class="token punctuation">}</span><br><span class="token punctuation">}</span></code></pre>
+<p>Defines additional links to be included in the page sidebar.</p>
 <h2 id="comment-options" tabindex="-1">Comment Options</h2>
 <h3 id="commentstyle" tabindex="-1">commentStyle</h3>
 <pre class="language-bash"><code class="language-bash">$ typedoc <span class="token parameter variable">--commentStyle</span> block</code></pre>

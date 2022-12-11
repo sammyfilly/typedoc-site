@@ -354,6 +354,14 @@
 				"alphabetical"
 			]
 		},
+		"kindSortOrder": {
+			"description": "Specify the sort order for reflections when 'kind' is specified.",
+			"type": "array",
+			"items": {
+				"type": "string"
+			},
+			"default": []
+		},
 		"visibilityFilters": {
 			"description": "Specify the default visibility for builtin filters and additional filters according to modifier tags.",
 			"default": {

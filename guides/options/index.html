@@ -263,11 +263,44 @@ Any options passed on the command line will override options set in a configurat
 <p>These options control where TypeDoc reads its configuration from.</p>
 <h3 id="options-1" tabindex="-1">options</h3>
 <pre class="language-bash"><code class="language-bash">$ typedoc <span class="token parameter variable">--options</span> <span class="token operator">&lt;</span>filename<span class="token operator">></span></code></pre>
-<p>Specify an option file that should be loaded. If not specified TypeDoc will look for <code>typedoc.json</code> and <code>typedoc.js</code> in the current directory.
-The JSON file should return an object whose keys are the option names. For example:</p>
-<pre class="language-js"><code class="language-js"><span class="token comment">// typedoc.json</span><br><span class="token punctuation">{</span><br>    <span class="token string-property property">"$schema"</span><span class="token operator">:</span> <span class="token string">"https://typedoc.org/schema.json"</span><span class="token punctuation">,</span><br>    <span class="token string-property property">"entryPoints"</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">"./src/index.ts"</span><span class="token punctuation">,</span> <span class="token string">"./src/secondary-entry.ts"</span><span class="token punctuation">]</span><span class="token punctuation">,</span><br>    <span class="token string-property property">"out"</span><span class="token operator">:</span> <span class="token string">"doc"</span><br><span class="token punctuation">}</span><br><br><span class="token comment">// typedoc.js</span><br><span class="token comment">/**<br> * @type {import('typedoc').TypeDocOptions}<br> */</span><br>module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span><br>    <span class="token literal-property property">entryPoints</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">"./src/index.ts"</span><span class="token punctuation">,</span> <span class="token string">"./src/secondary-entry.ts"</span><span class="token punctuation">]</span><span class="token punctuation">,</span><br>    <span class="token literal-property property">out</span><span class="token operator">:</span> <span class="token string">"doc"</span><br><span class="token punctuation">}</span></code></pre>
-<p>Option files may also contain an <code>extends</code> key which specifies an additional file to be loaded before importing options from the current file. Paths will be resolved relative to the options file they are loaded from.</p>
-<p>The <code>$schema</code> key is an optional property that will be ignored by TypeDoc, but can be used to get better autocomplete when editing a <code>typedoc.json</code> file in VSCode and other editors which support JSON Schemas.</p>
+<p>Specify a configuration file to be loaded, which should contain entries that correspond to command-line options/flags. If not specified, TypeDoc will look for a configuration file matching one of the valid config names in the current directory:</p>
+<ul>
+<li><code>typedoc.json</code></li>
+<li><code>typedoc.jsonc</code></li>
+<li><code>typedoc.config.js</code></li>
+<li><code>typedoc.config.cjs</code></li>
+<li><code>typedoc.js</code></li>
+<li><code>typedoc.cjs</code></li>
+<li><code>.config/typedoc.json</code></li>
+<li><code>.config/typedoc.jsonc</code></li>
+<li><code>.config/typedoc.config.js</code></li>
+<li><code>.config/typedoc.config.cjs</code></li>
+<li><code>.config/typedoc.js</code></li>
+<li><code>.config/typedoc.cjs</code></li>
+</ul>
+<h4 id="json-files" tabindex="-1">JSON Files</h4>
+<p>If you are using a JSON file, it should be an object whose keys are the option names. For example:</p>
+<pre class="language-json"><code class="language-json"><span class="token punctuation">{</span><br>    <span class="token property">"$schema"</span><span class="token operator">:</span> <span class="token string">"https://typedoc.org/schema.json"</span><span class="token punctuation">,</span><br>    <span class="token property">"entryPoints"</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">"./src/index.ts"</span><span class="token punctuation">,</span> <span class="token string">"./src/secondary-entry.ts"</span><span class="token punctuation">]</span><span class="token punctuation">,</span><br>    <span class="token property">"out"</span><span class="token operator">:</span> <span class="token string">"doc"</span><br><span class="token punctuation">}</span></code></pre>
+<p>Note that:</p>
+<ul>
+<li>It is recommended that you use a file name of <code>typedoc.json</code>.</li>
+<li>The <code>$schema</code> key is an optional property that will be ignored by TypeDoc, but will provide auto-complete and key validation when editing the file in VSCode and other editors which support JSON schemas.</li>
+<li>JSON files are parsed as JSONC, which means that you can safely use trailing commas and comments in your file.</li>
+</ul>
+<h4 id="javascript-files" tabindex="-1">JavaScript Files</h4>
+<p>If you are using a JavaScript file, it should export an object whose keys are the option names. For example:</p>
+<pre class="language-js"><code class="language-js"><span class="token comment">/** @type {import('typedoc').TypeDocOptions} */</span><br>module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span><br>    <span class="token literal-property property">entryPoints</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">"./src/index.ts"</span><span class="token punctuation">,</span> <span class="token string">"./src/secondary-entry.ts"</span><span class="token punctuation">]</span><span class="token punctuation">,</span><br>    <span class="token literal-property property">out</span><span class="token operator">:</span> <span class="token string">"doc"</span><span class="token punctuation">,</span><br><span class="token punctuation">}</span></code></pre>
+<p>Note that:</p>
+<ul>
+<li>It is recommended that you use a file name of <code>typedoc.config.cjs</code>.</li>
+<li>The comment will be ignored by TypeDoc, but will provide auto-complete and key validation when editing the file in VSCode and other editors which support TypeScript JSDoc annotations.</li>
+</ul>
+<h4 id="other-info" tabindex="-1">Other Info</h4>
+<ul>
+<li>Option files may also contain an <code>extends</code> key, which specifies an additional file to be loaded before importing options from the current file. Paths will be resolved relative to the options file they are loaded from.</li>
+<li>If you have a relatively simple configuration, then you should use a JSON configuration file.</li>
+<li>If you have a complex configuration, then you should use a JavaScript configuration file. (For example, you might want to build the <code>entryPoints</code> array programmatically by parsing the project's &quot;index.ts&quot; file.)</li>
+</ul>
 <h3 id="tsconfig" tabindex="-1">tsconfig</h3>
 <pre class="language-bash"><code class="language-bash">$ typedoc <span class="token parameter variable">--tsconfig</span> <span class="token operator">&lt;</span>/path/to/tsconfig.json<span class="token operator">></span></code></pre>
 <p>Specify a <code>tsconfig.json</code> file that options should be read from. If not specified TypeDoc will look for <code>tsconfig.json</code> in the current directory and parent directories like <code>tsc</code> does.</p>

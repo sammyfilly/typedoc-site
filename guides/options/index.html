@@ -664,6 +664,10 @@ sort option based on a tag.</p>
 <h3 id="treatwarningsaserrors" tabindex="-1">treatWarningsAsErrors</h3>
 <pre class="language-bash"><code class="language-bash">$ typedoc <span class="token parameter variable">--treatWarningsAsErrors</span></code></pre>
 <p>Causes TypeDoc to treat any reported warnings as fatal errors that can prevent documentation from being generated.</p>
+<h3 id="treatvalidationwarningsaserrors" tabindex="-1">treatValidationWarningsAsErrors</h3>
+<pre class="language-bash"><code class="language-bash">$ typedoc <span class="token parameter variable">--treatValidationWarningsAsErrors</span></code></pre>
+<p>Limited version of <code>treatWarningsAsErrors</code> that only applies to warnings emitted during validation of a project.
+This option cannot be used to turn <code>treatWarningsAsErrors</code> off for validation warnings.</p>
 <h3 id="intentionallynotexported" tabindex="-1">intentionallyNotExported</h3>
 <p>Lists symbols which are intentionally excluded from the documentation output and should not produce warnings.
 Entries may optionally specify a file name before a colon to only suppress warnings for symbols declared in a specific file.</p>

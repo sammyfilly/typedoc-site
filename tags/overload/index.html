@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>@beta | TypeDoc</title>
+    <title>@overload | TypeDoc</title>
     <meta
         name="description"
         property="og:description"
@@ -15,8 +15,8 @@
         name="keywords"
         content="TypeScript documentation generator javascript open source"
     />
-    <meta property="og:title" content="@beta" />
-    <meta property="og:url" content="/tags/beta/" />
+    <meta property="og:title" content="@overload" />
+    <meta property="og:url" content="/tags/overload/" />
     <meta property="og:site_name" content="TypeDoc Documentation Generator" />
     <meta name="twitter:card" content="summary" />
 
@@ -118,7 +118,7 @@
                 </li>
                 
                 <li>
-                    <a href="/tags/beta/" class="current">@beta</a>
+                    <a href="/tags/beta/" >@beta</a>
                 </li>
                 
                 <li>
@@ -186,7 +186,7 @@
                 </li>
                 
                 <li>
-                    <a href="/tags/overload/" >@overload</a>
+                    <a href="/tags/overload/" class="current">@overload</a>
                 </li>
                 
                 <li>
@@ -262,7 +262,7 @@
     </ul>
 </nav>
 </div>
-        <div class="typography"><h1 id="%40beta" tabindex="-1">@beta</h1>
+        <div class="typography"><h1 id="%40overload" tabindex="-1">@overload</h1>
 <dl class="tag-info">
     <dt>Tag Kind</dt>
     <dd>
@@ -270,23 +270,15 @@
     </dd>
     <dt>TSDoc Reference</dt>
     <dd>
-        <a href="https://tsdoc.org/pages/tags/beta/" target="_blank"
-            >@beta</a
-        >
+        TypeDoc specific
     </dd>
 </dl>
-<p>This tag can be used to indicate that the associated member is intended to eventually be used by third-party
-developers but is not yet stable enough to conform to semantic versioning requirements.</p>
-<p>The TSDoc specification indicates that the <code>@beta</code> and <code>@experimental</code> tags should be treated as semantically
-equivalent. TypeDoc users should generally use one or the other, but not both.</p>
+<p>The <code>@overload</code> tag is recognized for use in JavaScript projects which can use it to declare overloads since TypeScript 5.0.</p>
 <h2 id="example" tabindex="-1">Example</h2>
-<pre class="language-ts"><code class="language-ts"><span class="token keyword">export</span> <span class="token keyword">class</span> <span class="token class-name">Visibility</span> <span class="token punctuation">{</span><br>    <span class="token comment">/** @beta */</span><br>    <span class="token function">newBehavior</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">:</span> <span class="token keyword">void</span><span class="token punctuation">;</span><br><span class="token punctuation">}</span></code></pre>
+<pre class="language-js"><code class="language-js"><span class="token comment">/**<br> * @overload<br> * @param {string} value first signature<br> * @return {void}<br> */</span><br><br><span class="token comment">/**<br> * @overload<br> * @param {number} value second signature<br> * @param {number} [maximumFractionDigits]<br> * @return {void}<br> */</span><br><br><span class="token comment">/**<br> * @param {string | number} value<br> * @param {number} [maximumFractionDigits]<br> */</span><br><span class="token keyword">function</span> <span class="token function">printValue</span><span class="token punctuation">(</span><span class="token parameter">value<span class="token punctuation">,</span> maximumFractionDigits</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><span class="token punctuation">}</span></code></pre>
 <h2 id="see-also" tabindex="-1">See Also</h2>
 <ul>
-<li>The <a href="/tags/alpha/"><code>@alpha</code></a> tag</li>
-<li>The <a href="/tags/experimental/"><code>@experimental</code></a> tag</li>
-<li>The <a href="/tags/public/"><code>@public</code></a> tag</li>
-<li>The <a href="/guides/options/#visibilityfilters"><code>--visibilityFilters</code></a> option</li>
+<li>The <a href="https://devblogs.microsoft.com/typescript/announcing-typescript-5-0/#overload-support-in-jsdoc">TypeScript 5.0 release notes</a></li>
 </ul>
 </div>
         <div class="toc-container"></div>
@@ -304,7 +296,7 @@ equivalent. TypeDoc users should generally use one or the other, but not both.</
         </select>
     </div>
     <a
-        href="https://github.com/TypeStrong/typedoc-site/blob/master/./tags/beta.md"
+        href="https://github.com/TypeStrong/typedoc-site/blob/master/./tags/overload.md"
         class="edit-github"
         >Edit on GitHub</a
     >

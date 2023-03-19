@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>@beta | TypeDoc</title>
+    <title>@satisfies | TypeDoc</title>
     <meta
         name="description"
         property="og:description"
@@ -15,8 +15,8 @@
         name="keywords"
         content="TypeScript documentation generator javascript open source"
     />
-    <meta property="og:title" content="@beta" />
-    <meta property="og:url" content="/tags/beta/" />
+    <meta property="og:title" content="@satisfies" />
+    <meta property="og:url" content="/tags/satisfies/" />
     <meta property="og:site_name" content="TypeDoc Documentation Generator" />
     <meta name="twitter:card" content="summary" />
 
@@ -118,7 +118,7 @@
                 </li>
                 
                 <li>
-                    <a href="/tags/beta/" class="current">@beta</a>
+                    <a href="/tags/beta/" >@beta</a>
                 </li>
                 
                 <li>
@@ -230,7 +230,7 @@
                 </li>
                 
                 <li>
-                    <a href="/tags/satisfies/" >@satisfies</a>
+                    <a href="/tags/satisfies/" class="current">@satisfies</a>
                 </li>
                 
                 <li>
@@ -262,31 +262,24 @@
     </ul>
 </nav>
 </div>
-        <div class="typography"><h1 id="%40beta" tabindex="-1">@beta</h1>
+        <div class="typography"><h1 id="%40satisfies" tabindex="-1">@satisfies</h1>
 <dl class="tag-info">
     <dt>Tag Kind</dt>
     <dd>
-        <a href="/guides/tags/#modifier-tags">Modifier</a>
+        <a href="/guides/tags/#block-tags">Block</a>
     </dd>
     <dt>TSDoc Reference</dt>
     <dd>
-        <a href="https://tsdoc.org/pages/tags/beta/" target="_blank"
-            >@beta</a
-        >
+        TypeDoc specific
     </dd>
 </dl>
-<p>This tag can be used to indicate that the associated member is intended to eventually be used by third-party
-developers but is not yet stable enough to conform to semantic versioning requirements.</p>
-<p>The TSDoc specification indicates that the <code>@beta</code> and <code>@experimental</code> tags should be treated as semantically
-equivalent. TypeDoc users should generally use one or the other, but not both.</p>
+<p>This tag is recognized for parity with TypeScript 5.0's <a href="https://devblogs.microsoft.com/typescript/announcing-typescript-5-0/#satisfies-support-in-jsdoc"><code>@satisfies</code> Support in JSDoc</a>.</p>
+<p>It is hidden by default by the <a href="/guides/options/#excludetags"><code>--excludeTags</code></a> option.</p>
 <h2 id="example" tabindex="-1">Example</h2>
-<pre class="language-ts"><code class="language-ts"><span class="token keyword">export</span> <span class="token keyword">class</span> <span class="token class-name">Visibility</span> <span class="token punctuation">{</span><br>    <span class="token comment">/** @beta */</span><br>    <span class="token function">newBehavior</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">:</span> <span class="token keyword">void</span><span class="token punctuation">;</span><br><span class="token punctuation">}</span></code></pre>
+<pre class="language-js"><code class="language-js"><span class="token comment">/**<br> * @satisfies {ConfigSettings}<br> */</span><br><span class="token keyword">export</span> <span class="token keyword">const</span> myConfigSettings <span class="token operator">=</span> <span class="token punctuation">{</span> <span class="token operator">...</span> <span class="token punctuation">}</span><span class="token punctuation">;</span></code></pre>
 <h2 id="see-also" tabindex="-1">See Also</h2>
 <ul>
-<li>The <a href="/tags/alpha/"><code>@alpha</code></a> tag</li>
-<li>The <a href="/tags/experimental/"><code>@experimental</code></a> tag</li>
-<li>The <a href="/tags/public/"><code>@public</code></a> tag</li>
-<li>The <a href="/guides/options/#visibilityfilters"><code>--visibilityFilters</code></a> option</li>
+<li>The <a href="/guides/options/#excludetags"><code>--excludeTags</code></a> option</li>
 </ul>
 </div>
         <div class="toc-container"></div>
@@ -304,7 +297,7 @@ equivalent. TypeDoc users should generally use one or the other, but not both.</
         </select>
     </div>
     <a
-        href="https://github.com/TypeStrong/typedoc-site/blob/master/./tags/beta.md"
+        href="https://github.com/TypeStrong/typedoc-site/blob/master/./tags/satisfies.md"
         class="edit-github"
         >Edit on GitHub</a
     >

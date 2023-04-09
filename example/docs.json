@@ -379,19 +379,19 @@
 							"fileName": "example/src/classes/CancellablePromise.ts",
 							"line": 179,
 							"character": 11,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/CancellablePromise.ts#L179"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/CancellablePromise.ts#L179"
 						},
 						{
 							"fileName": "example/src/classes/CancellablePromise.ts",
 							"line": 181,
 							"character": 11,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/CancellablePromise.ts#L181"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/CancellablePromise.ts#L181"
 						},
 						{
 							"fileName": "example/src/classes/CancellablePromise.ts",
 							"line": 183,
 							"character": 11,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/CancellablePromise.ts#L183"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/CancellablePromise.ts#L183"
 						}
 					],
 					"signatures": [
@@ -422,7 +422,7 @@
 									"fileName": "example/src/classes/CancellablePromise.ts",
 									"line": 179,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/CancellablePromise.ts#L179"
+									"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/CancellablePromise.ts#L179"
 								}
 							],
 							"type": {
@@ -449,7 +449,7 @@
 									"fileName": "example/src/classes/CancellablePromise.ts",
 									"line": 181,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/CancellablePromise.ts#L181"
+									"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/CancellablePromise.ts#L181"
 								}
 							],
 							"typeParameter": [
@@ -504,7 +504,7 @@
 							"fileName": "example/src/classes/CancellablePromise.ts",
 							"line": 195,
 							"character": 11,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/CancellablePromise.ts#L195"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/CancellablePromise.ts#L195"
 						}
 					],
 					"signatures": [
@@ -551,7 +551,7 @@
 									"fileName": "example/src/classes/CancellablePromise.ts",
 									"line": 195,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/CancellablePromise.ts#L195"
+									"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/CancellablePromise.ts#L195"
 								}
 							],
 							"typeParameter": [
@@ -623,67 +623,67 @@
 							"fileName": "example/src/classes/CancellablePromise.ts",
 							"line": 199,
 							"character": 11,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/CancellablePromise.ts#L199"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/CancellablePromise.ts#L199"
 						},
 						{
 							"fileName": "example/src/classes/CancellablePromise.ts",
 							"line": 214,
 							"character": 11,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/CancellablePromise.ts#L214"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/CancellablePromise.ts#L214"
 						},
 						{
 							"fileName": "example/src/classes/CancellablePromise.ts",
 							"line": 228,
 							"character": 11,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/CancellablePromise.ts#L228"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/CancellablePromise.ts#L228"
 						},
 						{
 							"fileName": "example/src/classes/CancellablePromise.ts",
 							"line": 241,
 							"character": 11,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/CancellablePromise.ts#L241"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/CancellablePromise.ts#L241"
 						},
 						{
 							"fileName": "example/src/classes/CancellablePromise.ts",
 							"line": 253,
 							"character": 11,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/CancellablePromise.ts#L253"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/CancellablePromise.ts#L253"
 						},
 						{
 							"fileName": "example/src/classes/CancellablePromise.ts",
 							"line": 264,
 							"character": 11,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/CancellablePromise.ts#L264"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/CancellablePromise.ts#L264"
 						},
 						{
 							"fileName": "example/src/classes/CancellablePromise.ts",
 							"line": 274,
 							"character": 11,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/CancellablePromise.ts#L274"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/CancellablePromise.ts#L274"
 						},
 						{
 							"fileName": "example/src/classes/CancellablePromise.ts",
 							"line": 283,
 							"character": 11,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/CancellablePromise.ts#L283"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/CancellablePromise.ts#L283"
 						},
 						{
 							"fileName": "example/src/classes/CancellablePromise.ts",
 							"line": 291,
 							"character": 11,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/CancellablePromise.ts#L291"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/CancellablePromise.ts#L291"
 						},
 						{
 							"fileName": "example/src/classes/CancellablePromise.ts",
 							"line": 295,
 							"character": 11,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/CancellablePromise.ts#L295"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/CancellablePromise.ts#L295"
 						},
 						{
 							"fileName": "example/src/classes/CancellablePromise.ts",
 							"line": 307,
 							"character": 11,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/CancellablePromise.ts#L307"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/CancellablePromise.ts#L307"
 						}
 					],
 					"signatures": [
@@ -743,7 +743,7 @@
 									"fileName": "example/src/classes/CancellablePromise.ts",
 									"line": 199,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/CancellablePromise.ts#L199"
+									"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/CancellablePromise.ts#L199"
 								}
 							],
 							"typeParameter": [
@@ -1232,7 +1232,7 @@
 									"fileName": "example/src/classes/CancellablePromise.ts",
 									"line": 214,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/CancellablePromise.ts#L214"
+									"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/CancellablePromise.ts#L214"
 								}
 							],
 							"typeParameter": [
@@ -1683,7 +1683,7 @@
 									"fileName": "example/src/classes/CancellablePromise.ts",
 									"line": 228,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/CancellablePromise.ts#L228"
+									"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/CancellablePromise.ts#L228"
 								}
 							],
 							"typeParameter": [
@@ -2096,7 +2096,7 @@
 									"fileName": "example/src/classes/CancellablePromise.ts",
 									"line": 241,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/CancellablePromise.ts#L241"
+									"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/CancellablePromise.ts#L241"
 								}
 							],
 							"typeParameter": [
@@ -2471,7 +2471,7 @@
 									"fileName": "example/src/classes/CancellablePromise.ts",
 									"line": 253,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/CancellablePromise.ts#L253"
+									"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/CancellablePromise.ts#L253"
 								}
 							],
 							"typeParameter": [
@@ -2808,7 +2808,7 @@
 									"fileName": "example/src/classes/CancellablePromise.ts",
 									"line": 264,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/CancellablePromise.ts#L264"
+									"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/CancellablePromise.ts#L264"
 								}
 							],
 							"typeParameter": [
@@ -3107,7 +3107,7 @@
 									"fileName": "example/src/classes/CancellablePromise.ts",
 									"line": 274,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/CancellablePromise.ts#L274"
+									"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/CancellablePromise.ts#L274"
 								}
 							],
 							"typeParameter": [
@@ -3368,7 +3368,7 @@
 									"fileName": "example/src/classes/CancellablePromise.ts",
 									"line": 283,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/CancellablePromise.ts#L283"
+									"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/CancellablePromise.ts#L283"
 								}
 							],
 							"typeParameter": [
@@ -3591,7 +3591,7 @@
 									"fileName": "example/src/classes/CancellablePromise.ts",
 									"line": 291,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/CancellablePromise.ts#L291"
+									"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/CancellablePromise.ts#L291"
 								}
 							],
 							"typeParameter": [
@@ -3776,7 +3776,7 @@
 									"fileName": "example/src/classes/CancellablePromise.ts",
 									"line": 295,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/CancellablePromise.ts#L295"
+									"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/CancellablePromise.ts#L295"
 								}
 							],
 							"typeParameter": [
@@ -3878,19 +3878,19 @@
 							"fileName": "example/src/classes/CancellablePromise.ts",
 							"line": 321,
 							"character": 11,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/CancellablePromise.ts#L321"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/CancellablePromise.ts#L321"
 						},
 						{
 							"fileName": "example/src/classes/CancellablePromise.ts",
 							"line": 337,
 							"character": 11,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/CancellablePromise.ts#L337"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/CancellablePromise.ts#L337"
 						},
 						{
 							"fileName": "example/src/classes/CancellablePromise.ts",
 							"line": 343,
 							"character": 11,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/CancellablePromise.ts#L343"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/CancellablePromise.ts#L343"
 						}
 					],
 					"signatures": [
@@ -3948,7 +3948,7 @@
 									"fileName": "example/src/classes/CancellablePromise.ts",
 									"line": 321,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/CancellablePromise.ts#L321"
+									"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/CancellablePromise.ts#L321"
 								}
 							],
 							"typeParameter": [
@@ -4165,7 +4165,7 @@
 									"fileName": "example/src/classes/CancellablePromise.ts",
 									"line": 337,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/CancellablePromise.ts#L337"
+									"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/CancellablePromise.ts#L337"
 								}
 							],
 							"typeParameter": [
@@ -4290,7 +4290,7 @@
 							"fileName": "example/src/classes/CancellablePromise.ts",
 							"line": 362,
 							"character": 11,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/CancellablePromise.ts#L362"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/CancellablePromise.ts#L362"
 						}
 					],
 					"signatures": [
@@ -4348,7 +4348,7 @@
 									"fileName": "example/src/classes/CancellablePromise.ts",
 									"line": 362,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/CancellablePromise.ts#L362"
+									"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/CancellablePromise.ts#L362"
 								}
 							],
 							"typeParameter": [
@@ -4437,7 +4437,7 @@
 							"fileName": "example/src/classes/CancellablePromise.ts",
 							"line": 377,
 							"character": 11,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/CancellablePromise.ts#L377"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/CancellablePromise.ts#L377"
 						}
 					],
 					"signatures": [
@@ -4482,7 +4482,7 @@
 									"fileName": "example/src/classes/CancellablePromise.ts",
 									"line": 377,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/CancellablePromise.ts#L377"
+									"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/CancellablePromise.ts#L377"
 								}
 							],
 							"parameters": [
@@ -4524,7 +4524,7 @@
 							"fileName": "example/src/classes/CancellablePromise.ts",
 							"line": 70,
 							"character": 4,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/CancellablePromise.ts#L70"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/CancellablePromise.ts#L70"
 						}
 					],
 					"signatures": [
@@ -4539,7 +4539,7 @@
 									"fileName": "example/src/classes/CancellablePromise.ts",
 									"line": 70,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/CancellablePromise.ts#L70"
+									"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/CancellablePromise.ts#L70"
 								}
 							],
 							"typeParameter": [
@@ -4634,7 +4634,7 @@
 													"fileName": "example/src/classes/CancellablePromise.ts",
 													"line": 70,
 													"character": 49,
-													"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/CancellablePromise.ts#L70"
+													"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/CancellablePromise.ts#L70"
 												}
 											],
 											"signatures": [
@@ -4649,7 +4649,7 @@
 															"fileName": "example/src/classes/CancellablePromise.ts",
 															"line": 70,
 															"character": 49,
-															"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/CancellablePromise.ts#L70"
+															"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/CancellablePromise.ts#L70"
 														}
 													],
 													"parameters": [
@@ -4731,7 +4731,7 @@
 							"fileName": "example/src/classes/CancellablePromise.ts",
 							"line": 54,
 							"character": 23,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/CancellablePromise.ts#L54"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/CancellablePromise.ts#L54"
 						}
 					],
 					"type": {
@@ -4764,7 +4764,7 @@
 							"fileName": "example/src/classes/CancellablePromise.ts",
 							"line": 63,
 							"character": 13,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/CancellablePromise.ts#L63"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/CancellablePromise.ts#L63"
 						}
 					],
 					"type": {
@@ -4780,7 +4780,7 @@
 									"fileName": "example/src/classes/CancellablePromise.ts",
 									"line": 63,
 									"character": 21,
-									"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/CancellablePromise.ts#L63"
+									"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/CancellablePromise.ts#L63"
 								}
 							],
 							"signatures": [
@@ -4811,7 +4811,7 @@
 											"fileName": "example/src/classes/CancellablePromise.ts",
 											"line": 63,
 											"character": 21,
-											"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/CancellablePromise.ts#L63"
+											"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/CancellablePromise.ts#L63"
 										}
 									],
 									"parameters": [
@@ -4849,7 +4849,7 @@
 							"fileName": "example/src/classes/CancellablePromise.ts",
 							"line": 95,
 							"character": 4,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/CancellablePromise.ts#L95"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/CancellablePromise.ts#L95"
 						}
 					],
 					"signatures": [
@@ -4955,7 +4955,7 @@
 									"fileName": "example/src/classes/CancellablePromise.ts",
 									"line": 95,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/CancellablePromise.ts#L95"
+									"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/CancellablePromise.ts#L95"
 								}
 							],
 							"typeParameter": [
@@ -5012,7 +5012,7 @@
 															"fileName": "example/src/classes/CancellablePromise.ts",
 															"line": 97,
 															"character": 15,
-															"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/CancellablePromise.ts#L97"
+															"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/CancellablePromise.ts#L97"
 														}
 													],
 													"signatures": [
@@ -5027,7 +5027,7 @@
 																	"fileName": "example/src/classes/CancellablePromise.ts",
 																	"line": 97,
 																	"character": 15,
-																	"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/CancellablePromise.ts#L97"
+																	"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/CancellablePromise.ts#L97"
 																}
 															],
 															"parameters": [
@@ -5105,7 +5105,7 @@
 															"fileName": "example/src/classes/CancellablePromise.ts",
 															"line": 101,
 															"character": 15,
-															"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/CancellablePromise.ts#L101"
+															"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/CancellablePromise.ts#L101"
 														}
 													],
 													"signatures": [
@@ -5120,7 +5120,7 @@
 																	"fileName": "example/src/classes/CancellablePromise.ts",
 																	"line": 101,
 																	"character": 15,
-																	"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/CancellablePromise.ts#L101"
+																	"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/CancellablePromise.ts#L101"
 																}
 															],
 															"parameters": [
@@ -5207,7 +5207,7 @@
 							"fileName": "example/src/classes/CancellablePromise.ts",
 							"line": 146,
 							"character": 4,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/CancellablePromise.ts#L146"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/CancellablePromise.ts#L146"
 						}
 					],
 					"signatures": [
@@ -5238,7 +5238,7 @@
 									"fileName": "example/src/classes/CancellablePromise.ts",
 									"line": 146,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/CancellablePromise.ts#L146"
+									"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/CancellablePromise.ts#L146"
 								}
 							],
 							"typeParameter": [
@@ -5283,7 +5283,7 @@
 															"fileName": "example/src/classes/CancellablePromise.ts",
 															"line": 148,
 															"character": 15,
-															"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/CancellablePromise.ts#L148"
+															"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/CancellablePromise.ts#L148"
 														}
 													],
 													"signatures": [
@@ -5298,7 +5298,7 @@
 																	"fileName": "example/src/classes/CancellablePromise.ts",
 																	"line": 148,
 																	"character": 15,
-																	"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/CancellablePromise.ts#L148"
+																	"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/CancellablePromise.ts#L148"
 																}
 															],
 															"parameters": [
@@ -5385,7 +5385,7 @@
 							"fileName": "example/src/classes/CancellablePromise.ts",
 							"line": 163,
 							"character": 4,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/CancellablePromise.ts#L163"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/CancellablePromise.ts#L163"
 						}
 					],
 					"signatures": [
@@ -5419,7 +5419,7 @@
 									"fileName": "example/src/classes/CancellablePromise.ts",
 									"line": 163,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/CancellablePromise.ts#L163"
+									"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/CancellablePromise.ts#L163"
 								}
 							],
 							"parameters": [
@@ -5459,7 +5459,7 @@
 															"fileName": "example/src/classes/CancellablePromise.ts",
 															"line": 164,
 															"character": 21,
-															"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/CancellablePromise.ts#L164"
+															"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/CancellablePromise.ts#L164"
 														}
 													],
 													"signatures": [
@@ -5474,7 +5474,7 @@
 																	"fileName": "example/src/classes/CancellablePromise.ts",
 																	"line": 164,
 																	"character": 21,
-																	"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/CancellablePromise.ts#L164"
+																	"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/CancellablePromise.ts#L164"
 																}
 															],
 															"type": {
@@ -5540,7 +5540,7 @@
 					"fileName": "example/src/classes/CancellablePromise.ts",
 					"line": 46,
 					"character": 13,
-					"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/CancellablePromise.ts#L46"
+					"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/CancellablePromise.ts#L46"
 				}
 			],
 			"relevanceBoost": 1.5,
@@ -5598,7 +5598,7 @@
 							"fileName": "example/src/classes/Customer.ts",
 							"line": 48,
 							"character": 4,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/Customer.ts#L48"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/Customer.ts#L48"
 						}
 					],
 					"signatures": [
@@ -5629,7 +5629,7 @@
 									"fileName": "example/src/classes/Customer.ts",
 									"line": 48,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/Customer.ts#L48"
+									"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/Customer.ts#L48"
 								}
 							],
 							"parameters": [
@@ -5730,7 +5730,7 @@
 							"fileName": "example/src/classes/Customer.ts",
 							"line": 10,
 							"character": 13,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/Customer.ts#L10"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/Customer.ts#L10"
 						}
 					],
 					"type": {
@@ -5757,7 +5757,7 @@
 							"fileName": "example/src/classes/Customer.ts",
 							"line": 13,
 							"character": 4,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/Customer.ts#L13"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/Customer.ts#L13"
 						}
 					],
 					"type": {
@@ -5787,7 +5787,7 @@
 							"fileName": "example/src/classes/Customer.ts",
 							"line": 16,
 							"character": 14,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/Customer.ts#L16"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/Customer.ts#L16"
 						}
 					],
 					"type": {
@@ -5816,7 +5816,7 @@
 							"fileName": "example/src/classes/Customer.ts",
 							"line": 19,
 							"character": 12,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/Customer.ts#L19"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/Customer.ts#L19"
 						}
 					],
 					"type": {
@@ -5836,13 +5836,13 @@
 							"fileName": "example/src/classes/Customer.ts",
 							"line": 25,
 							"character": 8,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/Customer.ts#L25"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/Customer.ts#L25"
 						},
 						{
 							"fileName": "example/src/classes/Customer.ts",
 							"line": 33,
 							"character": 8,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/Customer.ts#L33"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/Customer.ts#L33"
 						}
 					],
 					"getSignature": {
@@ -5872,7 +5872,7 @@
 								"fileName": "example/src/classes/Customer.ts",
 								"line": 25,
 								"character": 4,
-								"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/Customer.ts#L25"
+								"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/Customer.ts#L25"
 							}
 						],
 						"type": {
@@ -5907,7 +5907,7 @@
 								"fileName": "example/src/classes/Customer.ts",
 								"line": 33,
 								"character": 4,
-								"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/Customer.ts#L33"
+								"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/Customer.ts#L33"
 							}
 						],
 						"parameters": [
@@ -5949,7 +5949,7 @@
 							"fileName": "example/src/classes/Customer.ts",
 							"line": 56,
 							"character": 4,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/Customer.ts#L56"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/Customer.ts#L56"
 						}
 					],
 					"signatures": [
@@ -5972,7 +5972,7 @@
 									"fileName": "example/src/classes/Customer.ts",
 									"line": 56,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/Customer.ts#L56"
+									"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/Customer.ts#L56"
 								}
 							],
 							"type": {
@@ -5993,7 +5993,7 @@
 							"fileName": "example/src/classes/Customer.ts",
 							"line": 65,
 							"character": 4,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/Customer.ts#L65"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/Customer.ts#L65"
 						}
 					],
 					"signatures": [
@@ -6016,7 +6016,7 @@
 									"fileName": "example/src/classes/Customer.ts",
 									"line": 65,
 									"character": 33,
-									"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/Customer.ts#L65"
+									"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/Customer.ts#L65"
 								}
 							],
 							"type": {
@@ -6039,7 +6039,7 @@
 							"fileName": "example/src/classes/Customer.ts",
 							"line": 70,
 							"character": 14,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/Customer.ts#L70"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/Customer.ts#L70"
 						}
 					],
 					"signatures": [
@@ -6062,7 +6062,7 @@
 									"fileName": "example/src/classes/Customer.ts",
 									"line": 70,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/Customer.ts#L70"
+									"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/Customer.ts#L70"
 								}
 							],
 							"type": {
@@ -6085,7 +6085,7 @@
 							"fileName": "example/src/classes/Customer.ts",
 							"line": 75,
 							"character": 12,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/Customer.ts#L75"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/Customer.ts#L75"
 						}
 					],
 					"signatures": [
@@ -6108,7 +6108,7 @@
 									"fileName": "example/src/classes/Customer.ts",
 									"line": 75,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/Customer.ts#L75"
+									"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/Customer.ts#L75"
 								}
 							],
 							"type": {
@@ -6156,7 +6156,7 @@
 					"fileName": "example/src/classes/Customer.ts",
 					"line": 8,
 					"character": 22,
-					"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/Customer.ts#L8"
+					"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/Customer.ts#L8"
 				}
 			],
 			"relevanceBoost": 1.7999999999999998,
@@ -6205,7 +6205,7 @@
 							"fileName": "example/src/classes/Customer.ts",
 							"line": 98,
 							"character": 4,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/Customer.ts#L98"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/Customer.ts#L98"
 						}
 					],
 					"signatures": [
@@ -6236,7 +6236,7 @@
 									"fileName": "example/src/classes/Customer.ts",
 									"line": 98,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/Customer.ts#L98"
+									"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/Customer.ts#L98"
 								}
 							],
 							"parameters": [
@@ -6375,7 +6375,7 @@
 							"fileName": "example/src/classes/Customer.ts",
 							"line": 85,
 							"character": 4,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/Customer.ts#L85"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/Customer.ts#L85"
 						}
 					],
 					"type": {
@@ -6404,7 +6404,7 @@
 							"fileName": "example/src/classes/Customer.ts",
 							"line": 88,
 							"character": 13,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/Customer.ts#L88"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/Customer.ts#L88"
 						}
 					],
 					"type": {
@@ -6434,7 +6434,7 @@
 							"fileName": "example/src/classes/Customer.ts",
 							"line": 114,
 							"character": 14,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/Customer.ts#L114"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/Customer.ts#L114"
 						}
 					],
 					"signatures": [
@@ -6465,7 +6465,7 @@
 									"fileName": "example/src/classes/Customer.ts",
 									"line": 114,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/Customer.ts#L114"
+									"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/Customer.ts#L114"
 								}
 							],
 							"type": {
@@ -6506,7 +6506,7 @@
 							"fileName": "example/src/classes/Customer.ts",
 							"line": 10,
 							"character": 13,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/Customer.ts#L10"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/Customer.ts#L10"
 						}
 					],
 					"type": {
@@ -6538,7 +6538,7 @@
 							"fileName": "example/src/classes/Customer.ts",
 							"line": 13,
 							"character": 4,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/Customer.ts#L13"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/Customer.ts#L13"
 						}
 					],
 					"type": {
@@ -6573,7 +6573,7 @@
 							"fileName": "example/src/classes/Customer.ts",
 							"line": 16,
 							"character": 14,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/Customer.ts#L16"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/Customer.ts#L16"
 						}
 					],
 					"type": {
@@ -6597,13 +6597,13 @@
 							"fileName": "example/src/classes/Customer.ts",
 							"line": 25,
 							"character": 8,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/Customer.ts#L25"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/Customer.ts#L25"
 						},
 						{
 							"fileName": "example/src/classes/Customer.ts",
 							"line": 33,
 							"character": 8,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/Customer.ts#L33"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/Customer.ts#L33"
 						}
 					],
 					"getSignature": {
@@ -6633,7 +6633,7 @@
 								"fileName": "example/src/classes/Customer.ts",
 								"line": 25,
 								"character": 4,
-								"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/Customer.ts#L25"
+								"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/Customer.ts#L25"
 							}
 						],
 						"type": {
@@ -6673,7 +6673,7 @@
 								"fileName": "example/src/classes/Customer.ts",
 								"line": 33,
 								"character": 4,
-								"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/Customer.ts#L33"
+								"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/Customer.ts#L33"
 							}
 						],
 						"parameters": [
@@ -6725,7 +6725,7 @@
 							"fileName": "example/src/classes/Customer.ts",
 							"line": 56,
 							"character": 4,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/Customer.ts#L56"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/Customer.ts#L56"
 						}
 					],
 					"signatures": [
@@ -6748,7 +6748,7 @@
 									"fileName": "example/src/classes/Customer.ts",
 									"line": 56,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/Customer.ts#L56"
+									"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/Customer.ts#L56"
 								}
 							],
 							"type": {
@@ -6779,7 +6779,7 @@
 							"fileName": "example/src/classes/Customer.ts",
 							"line": 65,
 							"character": 4,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/Customer.ts#L65"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/Customer.ts#L65"
 						}
 					],
 					"signatures": [
@@ -6802,7 +6802,7 @@
 									"fileName": "example/src/classes/Customer.ts",
 									"line": 65,
 									"character": 33,
-									"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/Customer.ts#L65"
+									"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/Customer.ts#L65"
 								}
 							],
 							"type": {
@@ -6860,7 +6860,7 @@
 					"fileName": "example/src/classes/Customer.ts",
 					"line": 83,
 					"character": 13,
-					"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/Customer.ts#L83"
+					"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/Customer.ts#L83"
 				}
 			],
 			"relevanceBoost": 1.5,
@@ -6939,7 +6939,7 @@
 							"fileName": "example/src/classes/StringArray.ts",
 							"line": 16,
 							"character": 4,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/StringArray.ts#L16"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/StringArray.ts#L16"
 						}
 					],
 					"signatures": [
@@ -6962,7 +6962,7 @@
 									"fileName": "example/src/classes/StringArray.ts",
 									"line": 16,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/StringArray.ts#L16"
+									"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/StringArray.ts#L16"
 								}
 							],
 							"type": {
@@ -14834,7 +14834,7 @@
 					"fileName": "example/src/classes/StringArray.ts",
 					"line": 14,
 					"character": 13,
-					"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/classes/StringArray.ts#L14"
+					"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/classes/StringArray.ts#L14"
 				}
 			],
 			"relevanceBoost": 1.5,
@@ -14890,7 +14890,7 @@
 							"fileName": "example/src/enums.ts",
 							"line": 4,
 							"character": 4,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/enums.ts#L4"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/enums.ts#L4"
 						}
 					],
 					"type": {
@@ -14917,7 +14917,7 @@
 							"fileName": "example/src/enums.ts",
 							"line": 7,
 							"character": 4,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/enums.ts#L7"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/enums.ts#L7"
 						}
 					],
 					"type": {
@@ -14944,7 +14944,7 @@
 							"fileName": "example/src/enums.ts",
 							"line": 10,
 							"character": 4,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/enums.ts#L10"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/enums.ts#L10"
 						}
 					],
 					"type": {
@@ -14968,7 +14968,7 @@
 					"fileName": "example/src/enums.ts",
 					"line": 2,
 					"character": 12,
-					"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/enums.ts#L2"
+					"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/enums.ts#L2"
 				}
 			]
 		},
@@ -14998,7 +14998,7 @@
 							"fileName": "example/src/enums.ts",
 							"line": 23,
 							"character": 4,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/enums.ts#L23"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/enums.ts#L23"
 						}
 					],
 					"type": {
@@ -15017,7 +15017,7 @@
 							"fileName": "example/src/enums.ts",
 							"line": 24,
 							"character": 4,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/enums.ts#L24"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/enums.ts#L24"
 						}
 					],
 					"type": {
@@ -15036,7 +15036,7 @@
 							"fileName": "example/src/enums.ts",
 							"line": 25,
 							"character": 4,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/enums.ts#L25"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/enums.ts#L25"
 						}
 					],
 					"type": {
@@ -15055,7 +15055,7 @@
 							"fileName": "example/src/enums.ts",
 							"line": 26,
 							"character": 4,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/enums.ts#L26"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/enums.ts#L26"
 						}
 					],
 					"type": {
@@ -15074,7 +15074,7 @@
 							"fileName": "example/src/enums.ts",
 							"line": 28,
 							"character": 4,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/enums.ts#L28"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/enums.ts#L28"
 						}
 					],
 					"type": {
@@ -15100,7 +15100,7 @@
 					"fileName": "example/src/enums.ts",
 					"line": 21,
 					"character": 12,
-					"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/enums.ts#L21"
+					"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/enums.ts#L21"
 				}
 			]
 		},
@@ -15154,7 +15154,7 @@
 							"fileName": "example/src/enums.ts",
 							"line": 47,
 							"character": 4,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/enums.ts#L47"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/enums.ts#L47"
 						}
 					],
 					"type": {
@@ -15181,7 +15181,7 @@
 							"fileName": "example/src/enums.ts",
 							"line": 50,
 							"character": 4,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/enums.ts#L50"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/enums.ts#L50"
 						}
 					],
 					"type": {
@@ -15200,7 +15200,7 @@
 							"fileName": "example/src/enums.ts",
 							"line": 52,
 							"character": 4,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/enums.ts#L52"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/enums.ts#L52"
 						}
 					],
 					"type": {
@@ -15224,7 +15224,7 @@
 					"fileName": "example/src/enums.ts",
 					"line": 46,
 					"character": 13,
-					"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/enums.ts#L46"
+					"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/enums.ts#L46"
 				}
 			]
 		},
@@ -15278,7 +15278,7 @@
 							"fileName": "example/src/enums.ts",
 							"line": 71,
 							"character": 4,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/enums.ts#L71"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/enums.ts#L71"
 						}
 					],
 					"type": {
@@ -15305,7 +15305,7 @@
 							"fileName": "example/src/enums.ts",
 							"line": 74,
 							"character": 4,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/enums.ts#L74"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/enums.ts#L74"
 						}
 					],
 					"type": {
@@ -15324,7 +15324,7 @@
 							"fileName": "example/src/enums.ts",
 							"line": 76,
 							"character": 4,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/enums.ts#L76"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/enums.ts#L76"
 						}
 					],
 					"type": {
@@ -15348,7 +15348,7 @@
 					"fileName": "example/src/enums.ts",
 					"line": 70,
 					"character": 13,
-					"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/enums.ts#L70"
+					"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/enums.ts#L70"
 				}
 			]
 		},
@@ -15363,7 +15363,7 @@
 					"fileName": "example/src/functions.ts",
 					"line": 7,
 					"character": 16,
-					"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/functions.ts#L7"
+					"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/functions.ts#L7"
 				}
 			],
 			"signatures": [
@@ -15421,7 +15421,7 @@
 							"fileName": "example/src/functions.ts",
 							"line": 7,
 							"character": 0,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/functions.ts#L7"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/functions.ts#L7"
 						}
 					],
 					"parameters": [
@@ -15463,7 +15463,7 @@
 					"fileName": "example/src/functions.ts",
 					"line": 39,
 					"character": 16,
-					"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/functions.ts#L39"
+					"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/functions.ts#L39"
 				}
 			],
 			"signatures": [
@@ -15498,7 +15498,7 @@
 							"fileName": "example/src/functions.ts",
 							"line": 39,
 							"character": 0,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/functions.ts#L39"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/functions.ts#L39"
 						}
 					],
 					"typeParameter": [
@@ -15572,7 +15572,7 @@
 					"fileName": "example/src/functions.ts",
 					"line": 65,
 					"character": 16,
-					"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/functions.ts#L65"
+					"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/functions.ts#L65"
 				}
 			],
 			"signatures": [
@@ -15595,7 +15595,7 @@
 							"fileName": "example/src/functions.ts",
 							"line": 65,
 							"character": 0,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/functions.ts#L65"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/functions.ts#L65"
 						}
 					],
 					"parameters": [
@@ -15647,7 +15647,7 @@
 					"fileName": "example/src/functions.ts",
 					"line": 78,
 					"character": 16,
-					"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/functions.ts#L78"
+					"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/functions.ts#L78"
 				}
 			],
 			"signatures": [
@@ -15670,7 +15670,7 @@
 							"fileName": "example/src/functions.ts",
 							"line": 78,
 							"character": 0,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/functions.ts#L78"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/functions.ts#L78"
 						}
 					],
 					"parameters": [
@@ -15700,7 +15700,7 @@
 													"fileName": "example/src/functions.ts",
 													"line": 79,
 													"character": 4,
-													"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/functions.ts#L79"
+													"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/functions.ts#L79"
 												}
 											],
 											"type": {
@@ -15727,7 +15727,7 @@
 													"fileName": "example/src/functions.ts",
 													"line": 82,
 													"character": 4,
-													"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/functions.ts#L82"
+													"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/functions.ts#L82"
 												}
 											],
 											"type": {
@@ -15758,7 +15758,7 @@
 													"fileName": "example/src/functions.ts",
 													"line": 85,
 													"character": 4,
-													"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/functions.ts#L85"
+													"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/functions.ts#L85"
 												}
 											],
 											"type": {
@@ -15792,7 +15792,7 @@
 													"fileName": "example/src/functions.ts",
 													"line": 87,
 													"character": 4,
-													"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/functions.ts#L87"
+													"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/functions.ts#L87"
 												}
 											],
 											"type": {
@@ -15834,7 +15834,7 @@
 													"fileName": "example/src/functions.ts",
 													"line": 88,
 													"character": 4,
-													"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/functions.ts#L88"
+													"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/functions.ts#L88"
 												}
 											],
 											"type": {
@@ -15873,7 +15873,7 @@
 											"fileName": "example/src/functions.ts",
 											"line": 78,
 											"character": 39,
-											"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/functions.ts#L78"
+											"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/functions.ts#L78"
 										}
 									]
 								}
@@ -15914,19 +15914,19 @@
 					"fileName": "example/src/functions.ts",
 					"line": 102,
 					"character": 16,
-					"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/functions.ts#L102"
+					"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/functions.ts#L102"
 				},
 				{
 					"fileName": "example/src/functions.ts",
 					"line": 111,
 					"character": 16,
-					"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/functions.ts#L111"
+					"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/functions.ts#L111"
 				},
 				{
 					"fileName": "example/src/functions.ts",
 					"line": 113,
 					"character": 16,
-					"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/functions.ts#L113"
+					"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/functions.ts#L113"
 				}
 			],
 			"signatures": [
@@ -15949,7 +15949,7 @@
 							"fileName": "example/src/functions.ts",
 							"line": 102,
 							"character": 0,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/functions.ts#L102"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/functions.ts#L102"
 						}
 					],
 					"parameters": [
@@ -16000,7 +16000,7 @@
 							"fileName": "example/src/functions.ts",
 							"line": 111,
 							"character": 0,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/functions.ts#L111"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/functions.ts#L111"
 						}
 					],
 					"parameters": [
@@ -16045,7 +16045,7 @@
 					"fileName": "example/src/functions.ts",
 					"line": 25,
 					"character": 13,
-					"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/functions.ts#L25"
+					"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/functions.ts#L25"
 				}
 			],
 			"signatures": [
@@ -16127,7 +16127,7 @@
 							"fileName": "example/src/functions.ts",
 							"line": 25,
 							"character": 33,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/functions.ts#L25"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/functions.ts#L25"
 						}
 					],
 					"parameters": [
@@ -16195,7 +16195,7 @@
 							"fileName": "example/src/functions.ts",
 							"line": 47,
 							"character": 4,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/functions.ts#L47"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/functions.ts#L47"
 						}
 					],
 					"type": {
@@ -16222,7 +16222,7 @@
 							"fileName": "example/src/functions.ts",
 							"line": 50,
 							"character": 4,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/functions.ts#L50"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/functions.ts#L50"
 						}
 					],
 					"type": {
@@ -16253,7 +16253,7 @@
 							"fileName": "example/src/functions.ts",
 							"line": 53,
 							"character": 4,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/functions.ts#L53"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/functions.ts#L53"
 						}
 					],
 					"type": {
@@ -16287,7 +16287,7 @@
 							"fileName": "example/src/functions.ts",
 							"line": 54,
 							"character": 4,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/functions.ts#L54"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/functions.ts#L54"
 						}
 					],
 					"type": {
@@ -16329,7 +16329,7 @@
 							"fileName": "example/src/functions.ts",
 							"line": 55,
 							"character": 4,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/functions.ts#L55"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/functions.ts#L55"
 						}
 					],
 					"type": {
@@ -16368,7 +16368,7 @@
 					"fileName": "example/src/functions.ts",
 					"line": 46,
 					"character": 17,
-					"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/functions.ts#L46"
+					"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/functions.ts#L46"
 				}
 			]
 		},
@@ -16383,7 +16383,7 @@
 					"fileName": "example/src/internals.ts",
 					"line": 8,
 					"character": 16,
-					"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/internals.ts#L8"
+					"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/internals.ts#L8"
 				}
 			],
 			"signatures": [
@@ -16425,7 +16425,7 @@
 							"fileName": "example/src/internals.ts",
 							"line": 8,
 							"character": 0,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/internals.ts#L8"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/internals.ts#L8"
 						}
 					],
 					"type": {
@@ -16446,7 +16446,7 @@
 					"fileName": "example/src/reactComponents.tsx",
 					"line": 42,
 					"character": 16,
-					"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/reactComponents.tsx#L42"
+					"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/reactComponents.tsx#L42"
 				}
 			],
 			"relevanceBoost": 2,
@@ -16494,7 +16494,7 @@
 							"fileName": "example/src/reactComponents.tsx",
 							"line": 42,
 							"character": 0,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/reactComponents.tsx#L42"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/reactComponents.tsx#L42"
 						}
 					],
 					"parameters": [
@@ -16548,7 +16548,7 @@
 					"fileName": "example/src/reactComponents.tsx",
 					"line": 74,
 					"character": 16,
-					"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/reactComponents.tsx#L74"
+					"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/reactComponents.tsx#L74"
 				}
 			],
 			"relevanceBoost": 2,
@@ -16588,7 +16588,7 @@
 							"fileName": "example/src/reactComponents.tsx",
 							"line": 74,
 							"character": 0,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/reactComponents.tsx#L74"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/reactComponents.tsx#L74"
 						}
 					],
 					"parameters": [
@@ -16641,7 +16641,7 @@
 															"fileName": "example/src/reactComponents.tsx",
 															"line": 79,
 															"character": 4,
-															"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/reactComponents.tsx#L79"
+															"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/reactComponents.tsx#L79"
 														}
 													],
 													"type": {
@@ -16688,7 +16688,7 @@
 													"fileName": "example/src/reactComponents.tsx",
 													"line": 77,
 													"character": 21,
-													"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/reactComponents.tsx#L77"
+													"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/reactComponents.tsx#L77"
 												}
 											]
 										}
@@ -16724,7 +16724,7 @@
 					"fileName": "example/src/reactComponents.tsx",
 					"line": 254,
 					"character": 16,
-					"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/reactComponents.tsx#L254"
+					"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/reactComponents.tsx#L254"
 				}
 			],
 			"relevanceBoost": 2,
@@ -16760,7 +16760,7 @@
 							"fileName": "example/src/reactComponents.tsx",
 							"line": 254,
 							"character": 0,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/reactComponents.tsx#L254"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/reactComponents.tsx#L254"
 						}
 					],
 					"parameters": [
@@ -16856,7 +16856,7 @@
 							"fileName": "example/src/reactComponents.tsx",
 							"line": 8,
 							"character": 4,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/reactComponents.tsx#L8"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/reactComponents.tsx#L8"
 						}
 					],
 					"type": {
@@ -16903,7 +16903,7 @@
 					"fileName": "example/src/reactComponents.tsx",
 					"line": 6,
 					"character": 17,
-					"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/reactComponents.tsx#L6"
+					"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/reactComponents.tsx#L6"
 				}
 			]
 		},
@@ -16952,7 +16952,7 @@
 							"fileName": "example/src/reactComponents.tsx",
 							"line": 87,
 							"character": 4,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/reactComponents.tsx#L87"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/reactComponents.tsx#L87"
 						}
 					],
 					"type": {
@@ -16985,7 +16985,7 @@
 							"fileName": "example/src/reactComponents.tsx",
 							"line": 90,
 							"character": 4,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/reactComponents.tsx#L90"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/reactComponents.tsx#L90"
 						}
 					],
 					"type": {
@@ -17014,7 +17014,7 @@
 							"fileName": "example/src/reactComponents.tsx",
 							"line": 93,
 							"character": 4,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/reactComponents.tsx#L93"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/reactComponents.tsx#L93"
 						}
 					],
 					"type": {
@@ -17043,7 +17043,7 @@
 							"fileName": "example/src/reactComponents.tsx",
 							"line": 96,
 							"character": 4,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/reactComponents.tsx#L96"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/reactComponents.tsx#L96"
 						}
 					],
 					"type": {
@@ -17080,7 +17080,7 @@
 							"fileName": "example/src/reactComponents.tsx",
 							"line": 105,
 							"character": 4,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/reactComponents.tsx#L105"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/reactComponents.tsx#L105"
 						}
 					],
 					"type": {
@@ -17107,7 +17107,7 @@
 							"fileName": "example/src/reactComponents.tsx",
 							"line": 108,
 							"character": 4,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/reactComponents.tsx#L108"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/reactComponents.tsx#L108"
 						}
 					],
 					"type": {
@@ -17134,7 +17134,7 @@
 							"fileName": "example/src/reactComponents.tsx",
 							"line": 111,
 							"character": 4,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/reactComponents.tsx#L111"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/reactComponents.tsx#L111"
 						}
 					],
 					"type": {
@@ -17153,7 +17153,7 @@
 							"fileName": "example/src/reactComponents.tsx",
 							"line": 114,
 							"character": 4,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/reactComponents.tsx#L114"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/reactComponents.tsx#L114"
 						}
 					],
 					"signatures": [
@@ -17176,7 +17176,7 @@
 									"fileName": "example/src/reactComponents.tsx",
 									"line": 114,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/reactComponents.tsx#L114"
+									"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/reactComponents.tsx#L114"
 								}
 							],
 							"parameters": [
@@ -17210,7 +17210,7 @@
 							"fileName": "example/src/reactComponents.tsx",
 							"line": 126,
 							"character": 4,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/reactComponents.tsx#L126"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/reactComponents.tsx#L126"
 						}
 					],
 					"signatures": [
@@ -17273,7 +17273,7 @@
 									"fileName": "example/src/reactComponents.tsx",
 									"line": 126,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/reactComponents.tsx#L126"
+									"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/reactComponents.tsx#L126"
 								}
 							],
 							"parameters": [
@@ -17318,7 +17318,7 @@
 							"fileName": "example/src/reactComponents.tsx",
 							"line": 134,
 							"character": 4,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/reactComponents.tsx#L134"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/reactComponents.tsx#L134"
 						}
 					],
 					"signatures": [
@@ -17365,7 +17365,7 @@
 									"fileName": "example/src/reactComponents.tsx",
 									"line": 134,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/reactComponents.tsx#L134"
+									"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/reactComponents.tsx#L134"
 								}
 							],
 							"type": {
@@ -17386,7 +17386,7 @@
 							"fileName": "example/src/reactComponents.tsx",
 							"line": 154,
 							"character": 4,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/reactComponents.tsx#L154"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/reactComponents.tsx#L154"
 						}
 					],
 					"signatures": [
@@ -17465,7 +17465,7 @@
 									"fileName": "example/src/reactComponents.tsx",
 									"line": 154,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/reactComponents.tsx#L154"
+									"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/reactComponents.tsx#L154"
 								}
 							],
 							"parameters": [
@@ -17559,7 +17559,7 @@
 																			"fileName": "example/src/reactComponents.tsx",
 																			"line": 157,
 																			"character": 20,
-																			"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/reactComponents.tsx#L157"
+																			"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/reactComponents.tsx#L157"
 																		}
 																	],
 																	"type": {
@@ -17578,7 +17578,7 @@
 																			"fileName": "example/src/reactComponents.tsx",
 																			"line": 158,
 																			"character": 20,
-																			"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/reactComponents.tsx#L158"
+																			"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/reactComponents.tsx#L158"
 																		}
 																	],
 																	"type": {
@@ -17601,7 +17601,7 @@
 																	"fileName": "example/src/reactComponents.tsx",
 																	"line": 156,
 																	"character": 16,
-																	"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/reactComponents.tsx#L156"
+																	"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/reactComponents.tsx#L156"
 																}
 															]
 														}
@@ -17630,7 +17630,7 @@
 							"fileName": "example/src/reactComponents.tsx",
 							"line": 167,
 							"character": 4,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/reactComponents.tsx#L167"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/reactComponents.tsx#L167"
 						}
 					],
 					"signatures": [
@@ -17653,7 +17653,7 @@
 									"fileName": "example/src/reactComponents.tsx",
 									"line": 167,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/reactComponents.tsx#L167"
+									"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/reactComponents.tsx#L167"
 								}
 							],
 							"type": {
@@ -17696,7 +17696,7 @@
 							"fileName": "example/src/reactComponents.tsx",
 							"line": 177,
 							"character": 4,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/reactComponents.tsx#L177"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/reactComponents.tsx#L177"
 						}
 					],
 					"type": {
@@ -17719,7 +17719,7 @@
 											"fileName": "example/src/reactComponents.tsx",
 											"line": 177,
 											"character": 38,
-											"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/reactComponents.tsx#L177"
+											"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/reactComponents.tsx#L177"
 										}
 									],
 									"signatures": [
@@ -17734,7 +17734,7 @@
 													"fileName": "example/src/reactComponents.tsx",
 													"line": 177,
 													"character": 38,
-													"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/reactComponents.tsx#L177"
+													"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/reactComponents.tsx#L177"
 												}
 											],
 											"type": {
@@ -17772,7 +17772,7 @@
 							"fileName": "example/src/reactComponents.tsx",
 							"line": 180,
 							"character": 4,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/reactComponents.tsx#L180"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/reactComponents.tsx#L180"
 						}
 					],
 					"type": {
@@ -17809,7 +17809,7 @@
 							"fileName": "example/src/reactComponents.tsx",
 							"line": 186,
 							"character": 4,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/reactComponents.tsx#L186"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/reactComponents.tsx#L186"
 						}
 					],
 					"type": {
@@ -17846,7 +17846,7 @@
 							"fileName": "example/src/reactComponents.tsx",
 							"line": 192,
 							"character": 4,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/reactComponents.tsx#L192"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/reactComponents.tsx#L192"
 						}
 					],
 					"type": {
@@ -17888,7 +17888,7 @@
 					"fileName": "example/src/reactComponents.tsx",
 					"line": 85,
 					"character": 17,
-					"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/reactComponents.tsx#L85"
+					"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/reactComponents.tsx#L85"
 				}
 			]
 		},
@@ -17903,7 +17903,7 @@
 					"fileName": "example/src/showcase.ts",
 					"line": 55,
 					"character": 16,
-					"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/showcase.ts#L55"
+					"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/showcase.ts#L55"
 				}
 			],
 			"signatures": [
@@ -17953,7 +17953,7 @@
 							"fileName": "example/src/showcase.ts",
 							"line": 55,
 							"character": 0,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/showcase.ts#L55"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/showcase.ts#L55"
 						}
 					],
 					"type": {
@@ -17974,7 +17974,7 @@
 					"fileName": "example/src/showcase.ts",
 					"line": 116,
 					"character": 16,
-					"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/showcase.ts#L116"
+					"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/showcase.ts#L116"
 				}
 			],
 			"signatures": [
@@ -18069,7 +18069,7 @@
 							"fileName": "example/src/showcase.ts",
 							"line": 116,
 							"character": 0,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/showcase.ts#L116"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/showcase.ts#L116"
 						}
 					],
 					"type": {
@@ -18106,7 +18106,7 @@
 					"fileName": "example/src/types.ts",
 					"line": 2,
 					"character": 12,
-					"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/types.ts#L2"
+					"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/types.ts#L2"
 				}
 			],
 			"type": {
@@ -18146,7 +18146,7 @@
 					"fileName": "example/src/types.ts",
 					"line": 5,
 					"character": 12,
-					"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/types.ts#L5"
+					"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/types.ts#L5"
 				}
 			],
 			"typeParameters": [
@@ -18285,7 +18285,7 @@
 							"fileName": "example/src/types.ts",
 							"line": 19,
 							"character": 4,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/types.ts#L19"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/types.ts#L19"
 						}
 					],
 					"type": {
@@ -18312,7 +18312,7 @@
 							"fileName": "example/src/types.ts",
 							"line": 22,
 							"character": 4,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/types.ts#L22"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/types.ts#L22"
 						}
 					],
 					"type": {
@@ -18339,7 +18339,7 @@
 							"fileName": "example/src/types.ts",
 							"line": 25,
 							"character": 4,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/types.ts#L25"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/types.ts#L25"
 						}
 					],
 					"type": {
@@ -18370,7 +18370,7 @@
 											"fileName": "example/src/types.ts",
 											"line": 27,
 											"character": 8,
-											"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/types.ts#L27"
+											"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/types.ts#L27"
 										}
 									],
 									"type": {
@@ -18397,7 +18397,7 @@
 											"fileName": "example/src/types.ts",
 											"line": 30,
 											"character": 8,
-											"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/types.ts#L30"
+											"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/types.ts#L30"
 										}
 									],
 									"type": {
@@ -18420,7 +18420,7 @@
 									"fileName": "example/src/types.ts",
 									"line": 25,
 									"character": 10,
-									"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/types.ts#L25"
+									"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/types.ts#L25"
 								}
 							]
 						}
@@ -18442,7 +18442,7 @@
 					"fileName": "example/src/types.ts",
 					"line": 17,
 					"character": 17,
-					"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/types.ts#L17"
+					"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/types.ts#L17"
 				}
 			],
 			"extendedBy": [
@@ -18490,7 +18490,7 @@
 							"fileName": "example/src/types.ts",
 							"line": 41,
 							"character": 4,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/types.ts#L41"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/types.ts#L41"
 						}
 					],
 					"type": {
@@ -18522,7 +18522,7 @@
 							"fileName": "example/src/types.ts",
 							"line": 42,
 							"character": 4,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/types.ts#L42"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/types.ts#L42"
 						}
 					],
 					"type": {
@@ -18549,7 +18549,7 @@
 							"fileName": "example/src/types.ts",
 							"line": 19,
 							"character": 4,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/types.ts#L19"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/types.ts#L19"
 						}
 					],
 					"type": {
@@ -18581,7 +18581,7 @@
 							"fileName": "example/src/types.ts",
 							"line": 22,
 							"character": 4,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/types.ts#L22"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/types.ts#L22"
 						}
 					],
 					"type": {
@@ -18613,7 +18613,7 @@
 							"fileName": "example/src/types.ts",
 							"line": 25,
 							"character": 4,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/types.ts#L25"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/types.ts#L25"
 						}
 					],
 					"type": {
@@ -18644,7 +18644,7 @@
 											"fileName": "example/src/types.ts",
 											"line": 27,
 											"character": 8,
-											"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/types.ts#L27"
+											"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/types.ts#L27"
 										}
 									],
 									"type": {
@@ -18671,7 +18671,7 @@
 											"fileName": "example/src/types.ts",
 											"line": 30,
 											"character": 8,
-											"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/types.ts#L30"
+											"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/types.ts#L30"
 										}
 									],
 									"type": {
@@ -18694,7 +18694,7 @@
 									"fileName": "example/src/types.ts",
 									"line": 25,
 									"character": 10,
-									"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/types.ts#L25"
+									"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/types.ts#L25"
 								}
 							]
 						}
@@ -18723,7 +18723,7 @@
 					"fileName": "example/src/types.ts",
 					"line": 40,
 					"character": 17,
-					"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/types.ts#L40"
+					"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/types.ts#L40"
 				}
 			],
 			"extendedTypes": [
@@ -18756,7 +18756,7 @@
 					"fileName": "example/src/variables.ts",
 					"line": 2,
 					"character": 13,
-					"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/variables.ts#L2"
+					"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/variables.ts#L2"
 				}
 			],
 			"type": {
@@ -18786,7 +18786,7 @@
 					"fileName": "example/src/variables.ts",
 					"line": 5,
 					"character": 13,
-					"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/variables.ts#L5"
+					"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/variables.ts#L5"
 				}
 			],
 			"type": {
@@ -18824,7 +18824,7 @@
 					"fileName": "example/src/variables.ts",
 					"line": 8,
 					"character": 13,
-					"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/variables.ts#L8"
+					"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/variables.ts#L8"
 				}
 			],
 			"type": {
@@ -18849,7 +18849,7 @@
 									"fileName": "example/src/variables.ts",
 									"line": 9,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/variables.ts#L9"
+									"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/variables.ts#L9"
 								}
 							],
 							"type": {
@@ -18871,7 +18871,7 @@
 									"fileName": "example/src/variables.ts",
 									"line": 10,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/variables.ts#L10"
+									"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/variables.ts#L10"
 								}
 							],
 							"type": {
@@ -18901,7 +18901,7 @@
 									"fileName": "example/src/variables.ts",
 									"line": 13,
 									"character": 4,
-									"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/variables.ts#L13"
+									"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/variables.ts#L13"
 								}
 							],
 							"type": {
@@ -18926,7 +18926,7 @@
 							"fileName": "example/src/variables.ts",
 							"line": 8,
 							"character": 30,
-							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/variables.ts#L8"
+							"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/variables.ts#L8"
 						}
 					]
 				}
@@ -18960,7 +18960,7 @@
 					"fileName": "example/src/variables.ts",
 					"line": 22,
 					"character": 11,
-					"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.0/example/src/variables.ts#L22"
+					"url": "https://github.com/TypeStrong/typedoc/blob/v0.24.1/example/src/variables.ts#L22"
 				}
 			],
 			"type": {

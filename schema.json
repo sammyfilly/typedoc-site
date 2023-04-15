@@ -250,6 +250,11 @@
 			"type": "boolean",
 			"default": false
 		},
+		"hideParameterTypesInTitle": {
+			"description": "Hides parameter types in signature titles for easier scanning.",
+			"type": "boolean",
+			"default": true
+		},
 		"cacheBust": {
 			"description": "Include the generation time in links to static assets.",
 			"type": "boolean",
@@ -411,6 +416,7 @@
 					"alphabetical",
 					"enum-value-ascending",
 					"enum-value-descending",
+					"enum-member-source-order",
 					"static-first",
 					"instance-first",
 					"visibility",

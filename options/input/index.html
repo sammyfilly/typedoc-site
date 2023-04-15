@@ -135,6 +135,7 @@ Entry points can be handled in one of three ways, see <a href="#entrypointstrate
 <h3 id="packages" tabindex="-1">packages</h3>
 <p>Expects all entry points to be directories to run TypeDoc within. After each entry point has been run through TypeDoc, the projects will be merged together and rendered to a single site. Each package may have its own set of TypeDoc
 configuration, but <code>plugins</code> within sub-projects will <em>not</em> be loaded. See <a href="https://github.com/Gerrit0/typedoc-packages-example">Gerrit0/typedoc-packages-example</a> for an example monorepo which uses this option.</p>
+<p>Configuration specified in the root level project will <em>not</em> be copied to child projects.</p>
 <h3 id="merge" tabindex="-1">merge</h3>
 <p>Expects all entry points to be <code>.json</code> files generated with a previous run of TypeDoc with the <a href="/options/output/#json"><code>--json</code></a> option set. These entry points will be merged into a single project.</p>
 <h3 id="legacy-packages-(deprecated)" tabindex="-1">legacy-packages (deprecated)</h3>

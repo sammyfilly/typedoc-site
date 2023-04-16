@@ -1,4 +1,4 @@
-<!DOCTYPE html><html class="default" lang="en"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="IE=edge"/><title>Renderer | TypeDoc - v0.24.2</title><meta name="description" content="Documentation for TypeDoc"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="../assets/style.css"/><link rel="stylesheet" href="../assets/highlight.css"/><script defer src="../assets/main.js"></script><script async src="../assets/search.js" id="tsd-search-script"></script></head><body><script>document.documentElement.dataset.theme = localStorage.getItem("tsd-theme") || "os"</script><header class="tsd-page-toolbar">
+<!DOCTYPE html><html class="default" lang="en"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="IE=edge"/><title>Renderer | TypeDoc - v0.24.4</title><meta name="description" content="Documentation for TypeDoc"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="../assets/style.css"/><link rel="stylesheet" href="../assets/highlight.css"/><script defer src="../assets/main.js"></script><script async src="../assets/search.js" id="tsd-search-script"></script></head><body><script>document.documentElement.dataset.theme = localStorage.getItem("tsd-theme") || "os"</script><header class="tsd-page-toolbar">
 <div class="tsd-toolbar-contents container">
 <div class="table-cell" id="tsd-search" data-base="..">
 <div class="field"><label for="tsd-search-field" class="tsd-widget tsd-toolbar-icon search no-caption"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M15.7824 13.833L12.6666 10.7177C12.5259 10.5771 12.3353 10.499 12.1353 10.499H11.6259C12.4884 9.39596 13.001 8.00859 13.001 6.49937C13.001 2.90909 10.0914 0 6.50048 0C2.90959 0 0 2.90909 0 6.49937C0 10.0896 2.90959 12.9987 6.50048 12.9987C8.00996 12.9987 9.39756 12.4863 10.5008 11.6239V12.1332C10.5008 12.3332 10.5789 12.5238 10.7195 12.6644L13.8354 15.7797C14.1292 16.0734 14.6042 16.0734 14.8948 15.7797L15.7793 14.8954C16.0731 14.6017 16.0731 14.1267 15.7824 13.833ZM6.50048 10.499C4.29094 10.499 2.50018 8.71165 2.50018 6.49937C2.50018 4.29021 4.28781 2.49976 6.50048 2.49976C8.71001 2.49976 10.5008 4.28708 10.5008 6.49937C10.5008 8.70852 8.71314 10.499 6.50048 10.499Z" fill="var(--color-text)"></path></svg></label><input type="text" id="tsd-search-field" aria-label="Search"/></div>
@@ -6,7 +6,7 @@
 <div id="tsd-toolbar-links"></div></div>
 <ul class="results">
 <li class="state loading">Preparing search index...</li>
-<li class="state failure">The search index is not available</li></ul><a href="../index.html" class="title">TypeDoc - v0.24.2</a></div>
+<li class="state failure">The search index is not available</li></ul><a href="../index.html" class="title">TypeDoc - v0.24.4</a></div>
 <div class="table-cell" id="tsd-widgets"><a href="#" class="tsd-widget tsd-toolbar-icon menu no-caption" data-toggle="menu" aria-label="Menu"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><rect x="1" y="3" width="14" height="2" fill="var(--color-text)"></rect><rect x="1" y="7" width="14" height="2" fill="var(--color-text)"></rect><rect x="1" y="11" width="14" height="2" fill="var(--color-text)"></rect></svg></a></div></div></header>
 <div class="container container-main">
 <div class="col-content">
@@ -16,48 +16,48 @@
 <li><a href="Renderer.html">Renderer</a></li></ul>
 <h1>Class Renderer</h1></div>
 <section class="tsd-panel tsd-comment">
-<div class="tsd-comment tsd-typography"><p>The renderer processes a <a href="Models.ProjectReflection.html" class="tsd-kind-Class">ProjectReflection</a> using a <a href="Theme.html" class="tsd-kind-Class">Theme</a> instance and writes
+<div class="tsd-comment tsd-typography"><p>The renderer processes a <a href="Models.ProjectReflection.html" class="tsd-kind-class">ProjectReflection</a> using a <a href="Theme.html" class="tsd-kind-class">Theme</a> instance and writes
 the emitted html documents to a output directory. You can specify which theme should be used
 using the <code>--theme &lt;name&gt;</code> command line argument.</p>
-<p><a href="Renderer.html" class="tsd-kind-Class">Renderer</a> is a subclass of <a href="EventDispatcher.html" class="tsd-kind-Class">EventDispatcher</a> and triggers a series of events while
+<p><a href="Renderer.html" class="tsd-kind-class">Renderer</a> is a subclass of <a href="EventDispatcher.html" class="tsd-kind-class">EventDispatcher</a> and triggers a series of events while
 a project is being processed. You can listen to these events to control the flow or manipulate
 the output.</p>
 <ul>
-<li><p><a href="Renderer.html#EVENT_BEGIN" class="tsd-kind-Property">EVENT_BEGIN</a><br>
+<li><p><a href="Renderer.html#EVENT_BEGIN" class="tsd-kind-property">EVENT_BEGIN</a><br>
 Triggered before the renderer starts rendering a project. The listener receives
-an instance of <a href="RendererEvent.html" class="tsd-kind-Class">RendererEvent</a>. By calling <a href="Event.html#preventDefault" class="tsd-kind-Method">preventDefault</a> the entire
+an instance of <a href="RendererEvent.html" class="tsd-kind-class">RendererEvent</a>. By calling <a href="Event.html#preventDefault" class="tsd-kind-method">preventDefault</a> the entire
 render process can be canceled.</p>
 <ul>
-<li><p><a href="Renderer.html#EVENT_BEGIN_PAGE" class="tsd-kind-Property">EVENT_BEGIN_PAGE</a><br>
+<li><p><a href="Renderer.html#EVENT_BEGIN_PAGE" class="tsd-kind-property">EVENT_BEGIN_PAGE</a><br>
 Triggered before a document will be rendered. The listener receives an instance of
-<a href="PageEvent.html" class="tsd-kind-Class">PageEvent</a>. By calling <a href="Event.html#preventDefault" class="tsd-kind-Method">preventDefault</a> the generation of the
+<a href="PageEvent.html" class="tsd-kind-class">PageEvent</a>. By calling <a href="Event.html#preventDefault" class="tsd-kind-method">preventDefault</a> the generation of the
 document can be canceled.</p>
 </li>
-<li><p><a href="Renderer.html#EVENT_END_PAGE" class="tsd-kind-Property">EVENT_END_PAGE</a><br>
+<li><p><a href="Renderer.html#EVENT_END_PAGE" class="tsd-kind-property">EVENT_END_PAGE</a><br>
 Triggered after a document has been rendered, just before it is written to disc. The
-listener receives an instance of <a href="PageEvent.html" class="tsd-kind-Class">PageEvent</a>. When calling
-<a href="Event.html#preventDefault" class="tsd-kind-Method">preventDefault</a> the the document will not be saved to disc.</p>
+listener receives an instance of <a href="PageEvent.html" class="tsd-kind-class">PageEvent</a>. When calling
+<a href="Event.html#preventDefault" class="tsd-kind-method">preventDefault</a> the the document will not be saved to disc.</p>
 </li>
 </ul>
 </li>
-<li><p><a href="Renderer.html#EVENT_END" class="tsd-kind-Property">EVENT_END</a><br>
+<li><p><a href="Renderer.html#EVENT_END" class="tsd-kind-property">EVENT_END</a><br>
 Triggered after the renderer has written all documents. The listener receives
-an instance of <a href="RendererEvent.html" class="tsd-kind-Class">RendererEvent</a>.</p>
+an instance of <a href="RendererEvent.html" class="tsd-kind-class">RendererEvent</a>.</p>
 </li>
-<li><p><a href="Renderer.html#EVENT_PREPARE_INDEX" class="tsd-kind-Property">EVENT_PREPARE_INDEX</a><br>
+<li><p><a href="Renderer.html#EVENT_PREPARE_INDEX" class="tsd-kind-property">EVENT_PREPARE_INDEX</a><br>
  Triggered when the JavascriptIndexPlugin is preparing the search index. Listeners receive
- an instance of <a href="IndexEvent.html" class="tsd-kind-Class">IndexEvent</a>.</p>
+ an instance of <a href="IndexEvent.html" class="tsd-kind-class">IndexEvent</a>.</p>
 </li>
 </ul>
 </div></section>
 <section class="tsd-panel tsd-hierarchy">
 <h4>Hierarchy</h4>
 <ul class="tsd-hierarchy">
-<li><span class="tsd-signature-type ">ChildableComponent</span><span class="tsd-signature-symbol">&lt;</span><a href="Application.html" class="tsd-signature-type tsd-kind-Class">Application</a><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type ">RendererComponent</span><span class="tsd-signature-symbol">&gt;</span>
+<li><span class="tsd-signature-type ">ChildableComponent</span><span class="tsd-signature-symbol">&lt;</span><a href="Application.html" class="tsd-signature-type tsd-kind-class">Application</a><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type ">RendererComponent</span><span class="tsd-signature-symbol">&gt;</span>
 <ul class="tsd-hierarchy">
 <li><span class="target">Renderer</span></li></ul></li></ul></section><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.2/src/lib/output/renderer.ts#L119">src/lib/output/renderer.ts:119</a></li></ul></aside>
+<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.4/src/lib/output/renderer.ts#L119">src/lib/output/renderer.ts:119</a></li></ul></aside>
 <section class="tsd-panel-group tsd-index-group">
 <section class="tsd-panel tsd-index-panel">
 <details class="tsd-index-content tsd-index-accordion" open><summary class="tsd-accordion-summary tsd-index-summary">
@@ -121,7 +121,7 @@ an instance of <a href="RendererEvent.html" class="tsd-kind-Class">RendererEvent
 <section class="tsd-panel tsd-member tsd-is-inherited"><a id="constructor" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>constructor</span><a href="#constructor" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none" id="icon-anchor-a"></path><path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" id="icon-anchor-b"></path><path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" id="icon-anchor-c"></path></svg></a></h3>
 <ul class="tsd-signatures tsd-is-inherited">
-<li class="tsd-signature tsd-anchor-link" id="constructor.new_Renderer"><span class="tsd-kind-Constructor-signature">new <wbr/>Renderer</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">owner</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="Renderer.html" class="tsd-signature-type tsd-kind-Class">Renderer</a><a href="#constructor.new_Renderer" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></li>
+<li class="tsd-signature tsd-anchor-link" id="constructor.new_Renderer"><span class="tsd-kind-constructor-signature">new <wbr/>Renderer</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">owner</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="Renderer.html" class="tsd-signature-type tsd-kind-class">Renderer</a><a href="#constructor.new_Renderer" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></li>
 <li class="tsd-description">
 <div class="tsd-comment tsd-typography"><p>Create new Component instance.</p>
 </div>
@@ -129,148 +129,148 @@ an instance of <a href="RendererEvent.html" class="tsd-kind-Class">RendererEvent
 <h4 class="tsd-parameters-title">Parameters</h4>
 <ul class="tsd-parameter-list">
 <li>
-<h5><span class="tsd-kind-parameter">owner</span>: <a href="Application.html" class="tsd-signature-type tsd-kind-Class">Application</a></h5></li></ul></div>
-<h4 class="tsd-returns-title">Returns <a href="Renderer.html" class="tsd-signature-type tsd-kind-Class">Renderer</a></h4><aside class="tsd-sources">
+<h5><span class="tsd-kind-parameter">owner</span>: <a href="Application.html" class="tsd-signature-type tsd-kind-class">Application</a></h5></li></ul></div>
+<h4 class="tsd-returns-title">Returns <a href="Renderer.html" class="tsd-signature-type tsd-kind-class">Renderer</a></h4><aside class="tsd-sources">
 <p>Inherited from ChildableComponent&lt;
     Application,
     RendererComponent
 &gt;.constructor</p>
 <ul>
-<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.2/src/lib/utils/component.ts#L192">src/lib/utils/component.ts:192</a></li></ul></aside></li></ul></section></section>
+<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.4/src/lib/utils/component.ts#L192">src/lib/utils/component.ts:192</a></li></ul></aside></li></ul></section></section>
 <section class="tsd-panel-group tsd-member-group">
 <h2>Properties</h2>
 <section class="tsd-panel tsd-member tsd-is-internal"><a id="cacheBust" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagInternal">Internal</code> <span>cache<wbr/>Bust</span><a href="#cacheBust" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
-<div class="tsd-signature"><span class="tsd-kind-Property">cache<wbr/>Bust</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div><aside class="tsd-sources">
+<div class="tsd-signature"><span class="tsd-kind-property">cache<wbr/>Bust</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.2/src/lib/output/renderer.ts#L194">src/lib/output/renderer.ts:194</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.4/src/lib/output/renderer.ts#L194">src/lib/output/renderer.ts:194</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-is-internal"><a id="cleanOutputDir" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagInternal">Internal</code> <span>clean<wbr/>Output<wbr/>Dir</span><a href="#cleanOutputDir" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
-<div class="tsd-signature"><span class="tsd-kind-Property">clean<wbr/>Output<wbr/>Dir</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div><aside class="tsd-sources">
+<div class="tsd-signature"><span class="tsd-kind-property">clean<wbr/>Output<wbr/>Dir</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.2/src/lib/output/renderer.ts#L182">src/lib/output/renderer.ts:182</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.4/src/lib/output/renderer.ts#L182">src/lib/output/renderer.ts:182</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-is-internal"><a id="cname" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagInternal">Internal</code> <span>cname</span><a href="#cname" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
-<div class="tsd-signature"><span class="tsd-kind-Property">cname</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div><aside class="tsd-sources">
+<div class="tsd-signature"><span class="tsd-kind-property">cname</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.2/src/lib/output/renderer.ts#L186">src/lib/output/renderer.ts:186</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.4/src/lib/output/renderer.ts#L186">src/lib/output/renderer.ts:186</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-is-inherited"><a id="componentName" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>component<wbr/>Name</span><a href="#componentName" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
-<div class="tsd-signature"><span class="tsd-kind-Property">component<wbr/>Name</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+<div class="tsd-signature"><span class="tsd-kind-property">component<wbr/>Name</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 <div class="tsd-comment tsd-typography"><p>The name of this component as set by the</p>
 
 <h3>Component</h3><p>decorator.</p>
 </div><aside class="tsd-sources">
 <p>Inherited from ChildableComponent.componentName</p>
 <ul>
-<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.2/src/lib/utils/component.ts#L121">src/lib/utils/component.ts:121</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.4/src/lib/utils/component.ts#L121">src/lib/utils/component.ts:121</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-is-internal"><a id="darkTheme" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagInternal">Internal</code> <span>dark<wbr/>Theme</span><a href="#darkTheme" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
-<div class="tsd-signature"><span class="tsd-kind-Property">dark<wbr/>Theme</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type ">Theme</span></div><aside class="tsd-sources">
+<div class="tsd-signature"><span class="tsd-kind-property">dark<wbr/>Theme</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type ">Theme</span></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.2/src/lib/output/renderer.ts#L202">src/lib/output/renderer.ts:202</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.4/src/lib/output/renderer.ts#L202">src/lib/output/renderer.ts:202</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-is-internal"><a id="githubPages" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagInternal">Internal</code> <span>github<wbr/>Pages</span><a href="#githubPages" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
-<div class="tsd-signature"><span class="tsd-kind-Property">github<wbr/>Pages</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div><aside class="tsd-sources">
+<div class="tsd-signature"><span class="tsd-kind-property">github<wbr/>Pages</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.2/src/lib/output/renderer.ts#L190">src/lib/output/renderer.ts:190</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.4/src/lib/output/renderer.ts#L190">src/lib/output/renderer.ts:190</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member"><a id="hooks" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>hooks</span><a href="#hooks" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
-<div class="tsd-signature"><span class="tsd-kind-Property">hooks</span><span class="tsd-signature-symbol">:</span> <a href="EventHooks.html" class="tsd-signature-type tsd-kind-Class">EventHooks</a><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/RendererHooks.html" class="tsd-signature-type tsd-kind-Interface">RendererHooks</a><span class="tsd-signature-symbol">, </span><a href="../interfaces/JSX.Element.html" class="tsd-signature-type tsd-kind-Interface">Element</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> = ...</span></div>
+<div class="tsd-signature"><span class="tsd-kind-property">hooks</span><span class="tsd-signature-symbol">:</span> <a href="EventHooks.html" class="tsd-signature-type tsd-kind-class">EventHooks</a><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/RendererHooks.html" class="tsd-signature-type tsd-kind-interface">RendererHooks</a><span class="tsd-signature-symbol">, </span><a href="../interfaces/JSX.Element.html" class="tsd-signature-type tsd-kind-interface">Element</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> = ...</span></div>
 <div class="tsd-comment tsd-typography"><p>Hooks which will be called when rendering pages.
 Note:</p>
 <ul>
 <li>Hooks added during output will be discarded at the end of rendering.</li>
 <li>Hooks added during a page render will be discarded at the end of that page&#39;s render.</li>
 </ul>
-<p>See <a href="../interfaces/RendererHooks.html" class="tsd-kind-Interface">RendererHooks</a> for a description of each available hook, and when it will be called.</p>
+<p>See <a href="../interfaces/RendererHooks.html" class="tsd-kind-interface">RendererHooks</a> for a description of each available hook, and when it will be called.</p>
 </div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.2/src/lib/output/renderer.ts#L174">src/lib/output/renderer.ts:174</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.4/src/lib/output/renderer.ts#L174">src/lib/output/renderer.ts:174</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-is-internal"><a id="lightTheme" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagInternal">Internal</code> <span>light<wbr/>Theme</span><a href="#lightTheme" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
-<div class="tsd-signature"><span class="tsd-kind-Property">light<wbr/>Theme</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type ">Theme</span></div><aside class="tsd-sources">
+<div class="tsd-signature"><span class="tsd-kind-property">light<wbr/>Theme</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type ">Theme</span></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.2/src/lib/output/renderer.ts#L198">src/lib/output/renderer.ts:198</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.4/src/lib/output/renderer.ts#L198">src/lib/output/renderer.ts:198</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member"><a id="postRenderAsyncJobs" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>post<wbr/>Render<wbr/>Async<wbr/>Jobs</span><a href="#postRenderAsyncJobs" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
-<div class="tsd-signature"><span class="tsd-kind-Property">post<wbr/>Render<wbr/>Async<wbr/>Jobs</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">output</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type ">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> = []</span></div>
+<div class="tsd-signature"><span class="tsd-kind-property">post<wbr/>Render<wbr/>Async<wbr/>Jobs</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">output</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type ">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> = []</span></div>
 <div class="tsd-comment tsd-typography"><p>A list of async jobs which must be completed after rendering output files but before generation is considered successful.
 These functions will be called after all documents have been written to the filesystem.</p>
 <p>This may be used by plugins to register work that must be done to finalize output files. For example: asynchronously
 generating an image referenced in a render hook.</p>
-<p>Note: This array is cleared after calling the contained functions on each <a href="Renderer.html#render" class="tsd-kind-Method">render</a> call.</p>
+<p>Note: This array is cleared after calling the contained functions on each <a href="Renderer.html#render" class="tsd-kind-method">render</a> call.</p>
 </div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.2/src/lib/output/renderer.ts#L159">src/lib/output/renderer.ts:159</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.4/src/lib/output/renderer.ts#L159">src/lib/output/renderer.ts:159</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member"><a id="preRenderAsyncJobs" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>pre<wbr/>Render<wbr/>Async<wbr/>Jobs</span><a href="#preRenderAsyncJobs" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
-<div class="tsd-signature"><span class="tsd-kind-Property">pre<wbr/>Render<wbr/>Async<wbr/>Jobs</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">output</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type ">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> = []</span></div>
+<div class="tsd-signature"><span class="tsd-kind-property">pre<wbr/>Render<wbr/>Async<wbr/>Jobs</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">output</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type ">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> = []</span></div>
 <div class="tsd-comment tsd-typography"><p>A list of async jobs which must be completed <em>before</em> rendering output.
-They will be called after <a href="RendererEvent.html#BEGIN" class="tsd-kind-Property">BEGIN</a> has fired, but before any files have been written.</p>
+They will be called after <a href="RendererEvent.html#BEGIN" class="tsd-kind-property">BEGIN</a> has fired, but before any files have been written.</p>
 <p>This may be used by plugins to register work that must be done to prepare output files. For example: asynchronously
 transform markdown to HTML.</p>
-<p>Note: This array is cleared after calling the contained functions on each <a href="Renderer.html#render" class="tsd-kind-Method">render</a> call.</p>
+<p>Note: This array is cleared after calling the contained functions on each <a href="Renderer.html#render" class="tsd-kind-method">render</a> call.</p>
 </div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.2/src/lib/output/renderer.ts#L148">src/lib/output/renderer.ts:148</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.4/src/lib/output/renderer.ts#L148">src/lib/output/renderer.ts:148</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member"><a id="renderStartTime" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>render<wbr/>Start<wbr/>Time</span><a href="#renderStartTime" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
-<div class="tsd-signature"><span class="tsd-kind-Property">render<wbr/>Start<wbr/>Time</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> = -1</span></div><aside class="tsd-sources">
+<div class="tsd-signature"><span class="tsd-kind-property">render<wbr/>Start<wbr/>Time</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> = -1</span></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.2/src/lib/output/renderer.ts#L204">src/lib/output/renderer.ts:204</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.4/src/lib/output/renderer.ts#L204">src/lib/output/renderer.ts:204</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-is-internal"><a id="themeName" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagInternal">Internal</code> <span>theme<wbr/>Name</span><a href="#themeName" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
-<div class="tsd-signature"><span class="tsd-kind-Property">theme<wbr/>Name</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div><aside class="tsd-sources">
+<div class="tsd-signature"><span class="tsd-kind-property">theme<wbr/>Name</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.2/src/lib/output/renderer.ts#L178">src/lib/output/renderer.ts:178</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.4/src/lib/output/renderer.ts#L178">src/lib/output/renderer.ts:178</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member"><a id="theme" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagOptional">Optional</code> <span>theme</span><a href="#theme" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
-<div class="tsd-signature"><span class="tsd-kind-Property">theme</span><span class="tsd-signature-symbol">?:</span> <a href="Theme.html" class="tsd-signature-type tsd-kind-Class">Theme</a></div>
+<div class="tsd-signature"><span class="tsd-kind-property">theme</span><span class="tsd-signature-symbol">?:</span> <a href="Theme.html" class="tsd-signature-type tsd-kind-class">Theme</a></div>
 <div class="tsd-comment tsd-typography"><p>The theme that is used to render the documentation.</p>
 </div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.2/src/lib/output/renderer.ts#L164">src/lib/output/renderer.ts:164</a></li></ul></aside></section></section>
+<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.4/src/lib/output/renderer.ts#L164">src/lib/output/renderer.ts:164</a></li></ul></aside></section></section>
 <section class="tsd-panel-group tsd-member-group">
 <h2>Events</h2>
 <section class="tsd-panel tsd-member"><a id="EVENT_BEGIN" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagStatic">Static</code> <code class="tsd-tag ts-flagReadonly">Readonly</code> <span>EVENT_<wbr/>BEGIN</span><a href="#EVENT_BEGIN" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
-<div class="tsd-signature"><span class="tsd-kind-Property">EVENT_<wbr/>BEGIN</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">&quot;beginRender&quot;</span><span class="tsd-signature-symbol"> = RendererEvent.BEGIN</span></div><aside class="tsd-sources">
+<div class="tsd-signature"><span class="tsd-kind-property">EVENT_<wbr/>BEGIN</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">&quot;beginRender&quot;</span><span class="tsd-signature-symbol"> = RendererEvent.BEGIN</span></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.2/src/lib/output/renderer.ts#L132">src/lib/output/renderer.ts:132</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.4/src/lib/output/renderer.ts#L132">src/lib/output/renderer.ts:132</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member"><a id="EVENT_BEGIN_PAGE" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagStatic">Static</code> <code class="tsd-tag ts-flagReadonly">Readonly</code> <span>EVENT_<wbr/>BEGIN_<wbr/>PAGE</span><a href="#EVENT_BEGIN_PAGE" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
-<div class="tsd-signature"><span class="tsd-kind-Property">EVENT_<wbr/>BEGIN_<wbr/>PAGE</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">&quot;beginPage&quot;</span><span class="tsd-signature-symbol"> = PageEvent.BEGIN</span></div><aside class="tsd-sources">
+<div class="tsd-signature"><span class="tsd-kind-property">EVENT_<wbr/>BEGIN_<wbr/>PAGE</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">&quot;beginPage&quot;</span><span class="tsd-signature-symbol"> = PageEvent.BEGIN</span></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.2/src/lib/output/renderer.ts#L128">src/lib/output/renderer.ts:128</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.4/src/lib/output/renderer.ts#L128">src/lib/output/renderer.ts:128</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member"><a id="EVENT_END" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagStatic">Static</code> <code class="tsd-tag ts-flagReadonly">Readonly</code> <span>EVENT_<wbr/>END</span><a href="#EVENT_END" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
-<div class="tsd-signature"><span class="tsd-kind-Property">EVENT_<wbr/>END</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">&quot;endRender&quot;</span><span class="tsd-signature-symbol"> = RendererEvent.END</span></div><aside class="tsd-sources">
+<div class="tsd-signature"><span class="tsd-kind-property">EVENT_<wbr/>END</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">&quot;endRender&quot;</span><span class="tsd-signature-symbol"> = RendererEvent.END</span></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.2/src/lib/output/renderer.ts#L134">src/lib/output/renderer.ts:134</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.4/src/lib/output/renderer.ts#L134">src/lib/output/renderer.ts:134</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member"><a id="EVENT_END_PAGE" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagStatic">Static</code> <code class="tsd-tag ts-flagReadonly">Readonly</code> <span>EVENT_<wbr/>END_<wbr/>PAGE</span><a href="#EVENT_END_PAGE" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
-<div class="tsd-signature"><span class="tsd-kind-Property">EVENT_<wbr/>END_<wbr/>PAGE</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">&quot;endPage&quot;</span><span class="tsd-signature-symbol"> = PageEvent.END</span></div><aside class="tsd-sources">
+<div class="tsd-signature"><span class="tsd-kind-property">EVENT_<wbr/>END_<wbr/>PAGE</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">&quot;endPage&quot;</span><span class="tsd-signature-symbol"> = PageEvent.END</span></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.2/src/lib/output/renderer.ts#L130">src/lib/output/renderer.ts:130</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.4/src/lib/output/renderer.ts#L130">src/lib/output/renderer.ts:130</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member"><a id="EVENT_PREPARE_INDEX" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagStatic">Static</code> <code class="tsd-tag ts-flagReadonly">Readonly</code> <span>EVENT_<wbr/>PREPARE_<wbr/>INDEX</span><a href="#EVENT_PREPARE_INDEX" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
-<div class="tsd-signature"><span class="tsd-kind-Property">EVENT_<wbr/>PREPARE_<wbr/>INDEX</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">&quot;prepareIndex&quot;</span><span class="tsd-signature-symbol"> = IndexEvent.PREPARE_INDEX</span></div><aside class="tsd-sources">
+<div class="tsd-signature"><span class="tsd-kind-property">EVENT_<wbr/>PREPARE_<wbr/>INDEX</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">&quot;prepareIndex&quot;</span><span class="tsd-signature-symbol"> = IndexEvent.PREPARE_INDEX</span></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.2/src/lib/output/renderer.ts#L137">src/lib/output/renderer.ts:137</a></li></ul></aside></section></section>
+<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.4/src/lib/output/renderer.ts#L137">src/lib/output/renderer.ts:137</a></li></ul></aside></section></section>
 <section class="tsd-panel-group tsd-member-group">
 <h2>Accessors</h2>
 <section class="tsd-panel tsd-member tsd-is-inherited"><a id="application" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>application</span><a href="#application" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-is-inherited">
-<li class="tsd-signature" id="application.application-1"><span class="tsd-signature-symbol">get</span> application<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="Application.html" class="tsd-signature-type tsd-kind-Class">Application</a></li>
+<li class="tsd-signature" id="application.application-1"><span class="tsd-signature-symbol">get</span> application<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="Application.html" class="tsd-signature-type tsd-kind-class">Application</a></li>
 <li class="tsd-description">
 <div class="tsd-comment tsd-typography"><p>Return the application / root component instance.</p>
 </div>
-<h4 class="tsd-returns-title">Returns <a href="Application.html" class="tsd-signature-type tsd-kind-Class">Application</a></h4><aside class="tsd-sources">
+<h4 class="tsd-returns-title">Returns <a href="Application.html" class="tsd-signature-type tsd-kind-class">Application</a></h4><aside class="tsd-sources">
 <p>Inherited from ChildableComponent.application</p>
 <ul>
-<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.2/src/lib/utils/component.ts#L155">src/lib/utils/component.ts:155</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.4/src/lib/utils/component.ts#L155">src/lib/utils/component.ts:155</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-is-inherited"><a id="owner" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>owner</span><a href="#owner" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-is-inherited">
@@ -281,13 +281,13 @@ transform markdown to HTML.</p>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type tsd-kind-type-parameter">O</span></h4><aside class="tsd-sources">
 <p>Inherited from ChildableComponent.owner</p>
 <ul>
-<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.2/src/lib/utils/component.ts#L165">src/lib/utils/component.ts:165</a></li></ul></aside></li></ul></section></section>
+<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.4/src/lib/utils/component.ts#L165">src/lib/utils/component.ts:165</a></li></ul></aside></li></ul></section></section>
 <section class="tsd-panel-group tsd-member-group">
 <h2>Methods</h2>
 <section class="tsd-panel tsd-member tsd-is-inherited"><a id="addComponent" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>add<wbr/>Component</span><a href="#addComponent" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-is-inherited">
-<li class="tsd-signature tsd-anchor-link" id="addComponent.addComponent-1"><span class="tsd-kind-Call-signature">add<wbr/>Component</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type tsd-kind-type-parameter">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">name</span>, <span class="tsd-kind-parameter">componentClass</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type tsd-kind-type-parameter">T</span><a href="#addComponent.addComponent-1" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></li>
+<li class="tsd-signature tsd-anchor-link" id="addComponent.addComponent-1"><span class="tsd-kind-call-signature">add<wbr/>Component</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type tsd-kind-type-parameter">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">name</span>, <span class="tsd-kind-parameter">componentClass</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type tsd-kind-type-parameter">T</span><a href="#addComponent.addComponent-1" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></li>
 <li class="tsd-description">
 <section class="tsd-panel tsd-type-parameters">
 <h4>Type Parameters</h4>
@@ -300,31 +300,31 @@ transform markdown to HTML.</p>
 <li>
 <h5><span class="tsd-kind-parameter">name</span>: <span class="tsd-signature-type">string</span></h5></li>
 <li>
-<h5><span class="tsd-kind-parameter">componentClass</span>: <span class="tsd-signature-type tsd-kind-type-parameter">T</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type ">ComponentClass</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type tsd-kind-type-parameter">T</span><span class="tsd-signature-symbol">, </span><a href="Application.html" class="tsd-signature-type tsd-kind-Class">Application</a><span class="tsd-signature-symbol">&gt;</span></h5></li></ul></div>
+<h5><span class="tsd-kind-parameter">componentClass</span>: <span class="tsd-signature-type tsd-kind-type-parameter">T</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type ">ComponentClass</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type tsd-kind-type-parameter">T</span><span class="tsd-signature-symbol">, </span><a href="Application.html" class="tsd-signature-type tsd-kind-class">Application</a><span class="tsd-signature-symbol">&gt;</span></h5></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type tsd-kind-type-parameter">T</span></h4><aside class="tsd-sources">
 <p>Inherited from ChildableComponent.addComponent</p>
 <ul>
-<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.2/src/lib/utils/component.ts#L219">src/lib/utils/component.ts:219</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.4/src/lib/utils/component.ts#L219">src/lib/utils/component.ts:219</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-is-protected tsd-is-inherited"><a id="bubble" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagProtected">Protected</code> <span>bubble</span><a href="#bubble" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-is-protected tsd-is-inherited">
-<li class="tsd-signature tsd-anchor-link" id="bubble.bubble-1"><span class="tsd-kind-Call-signature">bubble</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">name</span>, <span class="tsd-signature-symbol">...</span><span class="tsd-kind-parameter">args</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="Renderer.html" class="tsd-signature-type tsd-kind-Class">Renderer</a><a href="#bubble.bubble-1" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></li>
+<li class="tsd-signature tsd-anchor-link" id="bubble.bubble-1"><span class="tsd-kind-call-signature">bubble</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">name</span>, <span class="tsd-signature-symbol">...</span><span class="tsd-kind-parameter">args</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="Renderer.html" class="tsd-signature-type tsd-kind-class">Renderer</a><a href="#bubble.bubble-1" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></li>
 <li class="tsd-description">
 <div class="tsd-parameters">
 <h4 class="tsd-parameters-title">Parameters</h4>
 <ul class="tsd-parameter-list">
 <li>
-<h5><span class="tsd-kind-parameter">name</span>: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><a href="../interfaces/EventMap.html" class="tsd-signature-type tsd-kind-Interface">EventMap</a><span class="tsd-signature-symbol"> | </span><a href="Event.html" class="tsd-signature-type tsd-kind-Class">Event</a></h5></li>
+<h5><span class="tsd-kind-parameter">name</span>: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><a href="../interfaces/EventMap.html" class="tsd-signature-type tsd-kind-interface">EventMap</a><span class="tsd-signature-symbol"> | </span><a href="Event.html" class="tsd-signature-type tsd-kind-class">Event</a></h5></li>
 <li>
 <h5><code class="tsd-tag ts-flagRest">Rest</code> <span class="tsd-signature-symbol">...</span><span class="tsd-kind-parameter">args</span>: <span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span></h5></li></ul></div>
-<h4 class="tsd-returns-title">Returns <a href="Renderer.html" class="tsd-signature-type tsd-kind-Class">Renderer</a></h4><aside class="tsd-sources">
+<h4 class="tsd-returns-title">Returns <a href="Renderer.html" class="tsd-signature-type tsd-kind-class">Renderer</a></h4><aside class="tsd-sources">
 <p>Inherited from ChildableComponent.bubble</p>
 <ul>
-<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.2/src/lib/utils/component.ts#L139">src/lib/utils/component.ts:139</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.4/src/lib/utils/component.ts#L139">src/lib/utils/component.ts:139</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="defineTheme" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>define<wbr/>Theme</span><a href="#defineTheme" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures">
-<li class="tsd-signature tsd-anchor-link" id="defineTheme.defineTheme-1"><span class="tsd-kind-Call-signature">define<wbr/>Theme</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">name</span>, <span class="tsd-kind-parameter">theme</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span><a href="#defineTheme.defineTheme-1" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></li>
+<li class="tsd-signature tsd-anchor-link" id="defineTheme.defineTheme-1"><span class="tsd-kind-call-signature">define<wbr/>Theme</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">name</span>, <span class="tsd-kind-parameter">theme</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span><a href="#defineTheme.defineTheme-1" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></li>
 <li class="tsd-description">
 <div class="tsd-comment tsd-typography"><p>Define a new theme that can be used to render output.
 This API will likely be changing at some point, to allow more easily overriding parts of the theme without
@@ -336,25 +336,25 @@ requiring additional boilerplate.</p>
 <li>
 <h5><span class="tsd-kind-parameter">name</span>: <span class="tsd-signature-type">string</span></h5></li>
 <li>
-<h5><span class="tsd-kind-parameter">theme</span>: <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">new </span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">renderer</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><a href="Theme.html" class="tsd-signature-type tsd-kind-Class">Theme</a><span class="tsd-signature-symbol">)</span></h5>
+<h5><span class="tsd-kind-parameter">theme</span>: <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">new </span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">renderer</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><a href="Theme.html" class="tsd-signature-type tsd-kind-class">Theme</a><span class="tsd-signature-symbol">)</span></h5>
 <ul class="tsd-parameters">
 <li class="tsd-parameter-signature">
 <ul class="tsd-signatures">
-<li class="tsd-signature"><span class="tsd-signature-symbol">new </span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">renderer</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="Theme.html" class="tsd-signature-type tsd-kind-Class">Theme</a></li>
+<li class="tsd-signature"><span class="tsd-signature-symbol">new </span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">renderer</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="Theme.html" class="tsd-signature-type tsd-kind-class">Theme</a></li>
 <li class="tsd-description">
 <div class="tsd-parameters">
 <h4 class="tsd-parameters-title">Parameters</h4>
 <ul class="tsd-parameter-list">
 <li>
-<h5><span class="tsd-kind-parameter">renderer</span>: <a href="Renderer.html" class="tsd-signature-type tsd-kind-Class">Renderer</a></h5></li></ul></div>
-<h4 class="tsd-returns-title">Returns <a href="Theme.html" class="tsd-signature-type tsd-kind-Class">Theme</a></h4></li></ul></li></ul></li></ul></div>
+<h5><span class="tsd-kind-parameter">renderer</span>: <a href="Renderer.html" class="tsd-signature-type tsd-kind-class">Renderer</a></h5></li></ul></div>
+<h4 class="tsd-returns-title">Returns <a href="Theme.html" class="tsd-signature-type tsd-kind-class">Theme</a></h4></li></ul></li></ul></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.2/src/lib/output/renderer.ts#L213">src/lib/output/renderer.ts:213</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.4/src/lib/output/renderer.ts#L213">src/lib/output/renderer.ts:213</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-is-inherited"><a id="getComponent" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>get<wbr/>Component</span><a href="#getComponent" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-is-inherited">
-<li class="tsd-signature tsd-anchor-link" id="getComponent.getComponent-1"><span class="tsd-kind-Call-signature">get<wbr/>Component</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">name</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type ">RendererComponent</span><a href="#getComponent.getComponent-1" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></li>
+<li class="tsd-signature tsd-anchor-link" id="getComponent.getComponent-1"><span class="tsd-kind-call-signature">get<wbr/>Component</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">name</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type ">RendererComponent</span><a href="#getComponent.getComponent-1" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></li>
 <li class="tsd-description">
 <div class="tsd-comment tsd-typography"><p>Retrieve a plugin instance.</p>
 
@@ -368,20 +368,20 @@ requiring additional boilerplate.</p>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type ">RendererComponent</span></h4><aside class="tsd-sources">
 <p>Inherited from ChildableComponent.getComponent</p>
 <ul>
-<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.2/src/lib/utils/component.ts#L207">src/lib/utils/component.ts:207</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.4/src/lib/utils/component.ts#L207">src/lib/utils/component.ts:207</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-is-inherited"><a id="getComponents" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>get<wbr/>Components</span><a href="#getComponents" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-is-inherited">
-<li class="tsd-signature tsd-anchor-link" id="getComponents.getComponents-1"><span class="tsd-kind-Call-signature">get<wbr/>Components</span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type ">RendererComponent</span><span class="tsd-signature-symbol">[]</span><a href="#getComponents.getComponents-1" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></li>
+<li class="tsd-signature tsd-anchor-link" id="getComponents.getComponents-1"><span class="tsd-kind-call-signature">get<wbr/>Components</span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type ">RendererComponent</span><span class="tsd-signature-symbol">[]</span><a href="#getComponents.getComponents-1" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></li>
 <li class="tsd-description">
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type ">RendererComponent</span><span class="tsd-signature-symbol">[]</span></h4><aside class="tsd-sources">
 <p>Inherited from ChildableComponent.getComponents</p>
 <ul>
-<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.2/src/lib/utils/component.ts#L211">src/lib/utils/component.ts:211</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.4/src/lib/utils/component.ts#L211">src/lib/utils/component.ts:211</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-is-inherited"><a id="hasComponent" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>has<wbr/>Component</span><a href="#hasComponent" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-is-inherited">
-<li class="tsd-signature tsd-anchor-link" id="hasComponent.hasComponent-1"><span class="tsd-kind-Call-signature">has<wbr/>Component</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">name</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span><a href="#hasComponent.hasComponent-1" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></li>
+<li class="tsd-signature tsd-anchor-link" id="hasComponent.hasComponent-1"><span class="tsd-kind-call-signature">has<wbr/>Component</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">name</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span><a href="#hasComponent.hasComponent-1" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></li>
 <li class="tsd-description">
 <div class="tsd-parameters">
 <h4 class="tsd-parameters-title">Parameters</h4>
@@ -391,22 +391,22 @@ requiring additional boilerplate.</p>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4><aside class="tsd-sources">
 <p>Inherited from ChildableComponent.hasComponent</p>
 <ul>
-<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.2/src/lib/utils/component.ts#L215">src/lib/utils/component.ts:215</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.4/src/lib/utils/component.ts#L215">src/lib/utils/component.ts:215</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-is-protected tsd-is-inherited"><a id="initialize" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><code class="tsd-tag ts-flagProtected">Protected</code> <span>initialize</span><a href="#initialize" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-is-protected tsd-is-inherited">
-<li class="tsd-signature tsd-anchor-link" id="initialize.initialize-1"><span class="tsd-kind-Call-signature">initialize</span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span><a href="#initialize.initialize-1" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></li>
+<li class="tsd-signature tsd-anchor-link" id="initialize.initialize-1"><span class="tsd-kind-call-signature">initialize</span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span><a href="#initialize.initialize-1" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></li>
 <li class="tsd-description">
 <div class="tsd-comment tsd-typography"><p>Initialize this component.</p>
 </div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <p>Inherited from ChildableComponent.initialize</p>
 <ul>
-<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.2/src/lib/utils/component.ts#L135">src/lib/utils/component.ts:135</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.4/src/lib/utils/component.ts#L135">src/lib/utils/component.ts:135</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-is-inherited"><a id="listenTo" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>listen<wbr/>To</span><a href="#listenTo" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-is-inherited">
-<li class="tsd-signature tsd-anchor-link" id="listenTo.listenTo-1"><span class="tsd-kind-Call-signature">listen<wbr/>To</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">obj</span>, <span class="tsd-kind-parameter">name</span>, <span class="tsd-kind-parameter">callback</span><span class="tsd-signature-symbol">?</span>, <span class="tsd-kind-parameter">priority</span><span class="tsd-signature-symbol">?</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="Renderer.html" class="tsd-signature-type tsd-kind-Class">Renderer</a><a href="#listenTo.listenTo-1" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></li>
+<li class="tsd-signature tsd-anchor-link" id="listenTo.listenTo-1"><span class="tsd-kind-call-signature">listen<wbr/>To</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">obj</span>, <span class="tsd-kind-parameter">name</span>, <span class="tsd-kind-parameter">callback</span><span class="tsd-signature-symbol">?</span>, <span class="tsd-kind-parameter">priority</span><span class="tsd-signature-symbol">?</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="Renderer.html" class="tsd-signature-type tsd-kind-class">Renderer</a><a href="#listenTo.listenTo-1" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></li>
 <li class="tsd-description">
 <div class="tsd-comment tsd-typography"><p>Inversion-of-control versions of <code>on</code>. Tell <em>this</em> object to listen to
 an event in another object... keeping track of what it&#39;s listening to
@@ -416,21 +416,21 @@ for easier unbinding later.</p>
 <h4 class="tsd-parameters-title">Parameters</h4>
 <ul class="tsd-parameter-list">
 <li>
-<h5><span class="tsd-kind-parameter">obj</span>: <a href="EventDispatcher.html" class="tsd-signature-type tsd-kind-Class">EventDispatcher</a></h5></li>
+<h5><span class="tsd-kind-parameter">obj</span>: <a href="EventDispatcher.html" class="tsd-signature-type tsd-kind-class">EventDispatcher</a></h5></li>
 <li>
-<h5><span class="tsd-kind-parameter">name</span>: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><a href="../interfaces/EventMap.html" class="tsd-signature-type tsd-kind-Interface">EventMap</a></h5></li>
+<h5><span class="tsd-kind-parameter">name</span>: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><a href="../interfaces/EventMap.html" class="tsd-signature-type tsd-kind-interface">EventMap</a></h5></li>
 <li>
-<h5><code class="tsd-tag ts-flagOptional">Optional</code> <span class="tsd-kind-parameter">callback</span>: <a href="../interfaces/EventCallback.html" class="tsd-signature-type tsd-kind-Interface">EventCallback</a></h5></li>
+<h5><code class="tsd-tag ts-flagOptional">Optional</code> <span class="tsd-kind-parameter">callback</span>: <a href="../interfaces/EventCallback.html" class="tsd-signature-type tsd-kind-interface">EventCallback</a></h5></li>
 <li>
 <h5><code class="tsd-tag ts-flagOptional">Optional</code> <span class="tsd-kind-parameter">priority</span>: <span class="tsd-signature-type">number</span></h5></li></ul></div>
-<h4 class="tsd-returns-title">Returns <a href="Renderer.html" class="tsd-signature-type tsd-kind-Class">Renderer</a></h4><aside class="tsd-sources">
+<h4 class="tsd-returns-title">Returns <a href="Renderer.html" class="tsd-signature-type tsd-kind-class">Renderer</a></h4><aside class="tsd-sources">
 <p>Inherited from ChildableComponent.listenTo</p>
 <ul>
-<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.2/src/lib/utils/events.ts#L542">src/lib/utils/events.ts:542</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.4/src/lib/utils/events.ts#L542">src/lib/utils/events.ts:542</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-is-inherited"><a id="listenToOnce" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>listen<wbr/>To<wbr/>Once</span><a href="#listenToOnce" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-is-inherited">
-<li class="tsd-signature tsd-anchor-link" id="listenToOnce.listenToOnce-1"><span class="tsd-kind-Call-signature">listen<wbr/>To<wbr/>Once</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">obj</span>, <span class="tsd-kind-parameter">eventMap</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="Renderer.html" class="tsd-signature-type tsd-kind-Class">Renderer</a><a href="#listenToOnce.listenToOnce-1" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></li>
+<li class="tsd-signature tsd-anchor-link" id="listenToOnce.listenToOnce-1"><span class="tsd-kind-call-signature">listen<wbr/>To<wbr/>Once</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">obj</span>, <span class="tsd-kind-parameter">eventMap</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="Renderer.html" class="tsd-signature-type tsd-kind-class">Renderer</a><a href="#listenToOnce.listenToOnce-1" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></li>
 <li class="tsd-description">
 <div class="tsd-comment tsd-typography"><p>Inversion-of-control versions of <code>once</code>.</p>
 </div>
@@ -438,58 +438,58 @@ for easier unbinding later.</p>
 <h4 class="tsd-parameters-title">Parameters</h4>
 <ul class="tsd-parameter-list">
 <li>
-<h5><span class="tsd-kind-parameter">obj</span>: <a href="EventDispatcher.html" class="tsd-signature-type tsd-kind-Class">EventDispatcher</a></h5></li>
+<h5><span class="tsd-kind-parameter">obj</span>: <a href="EventDispatcher.html" class="tsd-signature-type tsd-kind-class">EventDispatcher</a></h5></li>
 <li>
-<h5><span class="tsd-kind-parameter">eventMap</span>: <a href="../interfaces/EventMap.html" class="tsd-signature-type tsd-kind-Interface">EventMap</a></h5></li></ul></div>
-<h4 class="tsd-returns-title">Returns <a href="Renderer.html" class="tsd-signature-type tsd-kind-Class">Renderer</a></h4><aside class="tsd-sources">
+<h5><span class="tsd-kind-parameter">eventMap</span>: <a href="../interfaces/EventMap.html" class="tsd-signature-type tsd-kind-interface">EventMap</a></h5></li></ul></div>
+<h4 class="tsd-returns-title">Returns <a href="Renderer.html" class="tsd-signature-type tsd-kind-class">Renderer</a></h4><aside class="tsd-sources">
 <p>Inherited from ChildableComponent.listenToOnce</p>
 <ul>
-<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.2/src/lib/utils/events.ts#L576">src/lib/utils/events.ts:576</a></li></ul></aside></li>
-<li class="tsd-signature tsd-anchor-link" id="listenToOnce.listenToOnce-2"><span class="tsd-kind-Call-signature">listen<wbr/>To<wbr/>Once</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">obj</span>, <span class="tsd-kind-parameter">name</span>, <span class="tsd-kind-parameter">callback</span>, <span class="tsd-kind-parameter">priority</span><span class="tsd-signature-symbol">?</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="Renderer.html" class="tsd-signature-type tsd-kind-Class">Renderer</a><a href="#listenToOnce.listenToOnce-2" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></li>
+<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.4/src/lib/utils/events.ts#L576">src/lib/utils/events.ts:576</a></li></ul></aside></li>
+<li class="tsd-signature tsd-anchor-link" id="listenToOnce.listenToOnce-2"><span class="tsd-kind-call-signature">listen<wbr/>To<wbr/>Once</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">obj</span>, <span class="tsd-kind-parameter">name</span>, <span class="tsd-kind-parameter">callback</span>, <span class="tsd-kind-parameter">priority</span><span class="tsd-signature-symbol">?</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="Renderer.html" class="tsd-signature-type tsd-kind-class">Renderer</a><a href="#listenToOnce.listenToOnce-2" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></li>
 <li class="tsd-description">
 <div class="tsd-parameters">
 <h4 class="tsd-parameters-title">Parameters</h4>
 <ul class="tsd-parameter-list">
 <li>
-<h5><span class="tsd-kind-parameter">obj</span>: <a href="EventDispatcher.html" class="tsd-signature-type tsd-kind-Class">EventDispatcher</a></h5></li>
+<h5><span class="tsd-kind-parameter">obj</span>: <a href="EventDispatcher.html" class="tsd-signature-type tsd-kind-class">EventDispatcher</a></h5></li>
 <li>
 <h5><span class="tsd-kind-parameter">name</span>: <span class="tsd-signature-type">string</span></h5></li>
 <li>
-<h5><span class="tsd-kind-parameter">callback</span>: <a href="../interfaces/EventCallback.html" class="tsd-signature-type tsd-kind-Interface">EventCallback</a></h5></li>
+<h5><span class="tsd-kind-parameter">callback</span>: <a href="../interfaces/EventCallback.html" class="tsd-signature-type tsd-kind-interface">EventCallback</a></h5></li>
 <li>
 <h5><code class="tsd-tag ts-flagOptional">Optional</code> <span class="tsd-kind-parameter">priority</span>: <span class="tsd-signature-type">number</span></h5></li></ul></div>
-<h4 class="tsd-returns-title">Returns <a href="Renderer.html" class="tsd-signature-type tsd-kind-Class">Renderer</a></h4><aside class="tsd-sources">
+<h4 class="tsd-returns-title">Returns <a href="Renderer.html" class="tsd-signature-type tsd-kind-class">Renderer</a></h4><aside class="tsd-sources">
 <p>Inherited from ChildableComponent.listenToOnce</p>
 <ul>
-<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.2/src/lib/utils/events.ts#L577">src/lib/utils/events.ts:577</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.4/src/lib/utils/events.ts#L577">src/lib/utils/events.ts:577</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-is-inherited"><a id="off" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>off</span><a href="#off" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-is-inherited">
-<li class="tsd-signature tsd-anchor-link" id="off.off-1"><span class="tsd-kind-Call-signature">off</span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="Renderer.html" class="tsd-signature-type tsd-kind-Class">Renderer</a><a href="#off.off-1" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></li>
+<li class="tsd-signature tsd-anchor-link" id="off.off-1"><span class="tsd-kind-call-signature">off</span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="Renderer.html" class="tsd-signature-type tsd-kind-class">Renderer</a><a href="#off.off-1" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></li>
 <li class="tsd-description">
 <div class="tsd-comment tsd-typography"><p>Remove one or many callbacks. If <code>context</code> is null, removes all
 callbacks with that function. If <code>callback</code> is null, removes all
 callbacks for the event. If <code>name</code> is null, removes all bound
 callbacks for all events.</p>
 </div>
-<h4 class="tsd-returns-title">Returns <a href="Renderer.html" class="tsd-signature-type tsd-kind-Class">Renderer</a></h4><aside class="tsd-sources">
+<h4 class="tsd-returns-title">Returns <a href="Renderer.html" class="tsd-signature-type tsd-kind-class">Renderer</a></h4><aside class="tsd-sources">
 <p>Inherited from ChildableComponent.off</p>
 <ul>
-<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.2/src/lib/utils/events.ts#L517">src/lib/utils/events.ts:517</a></li></ul></aside></li>
-<li class="tsd-signature tsd-anchor-link" id="off.off-2"><span class="tsd-kind-Call-signature">off</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">eventMap</span>, <span class="tsd-kind-parameter">context</span><span class="tsd-signature-symbol">?</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="Renderer.html" class="tsd-signature-type tsd-kind-Class">Renderer</a><a href="#off.off-2" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></li>
+<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.4/src/lib/utils/events.ts#L517">src/lib/utils/events.ts:517</a></li></ul></aside></li>
+<li class="tsd-signature tsd-anchor-link" id="off.off-2"><span class="tsd-kind-call-signature">off</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">eventMap</span>, <span class="tsd-kind-parameter">context</span><span class="tsd-signature-symbol">?</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="Renderer.html" class="tsd-signature-type tsd-kind-class">Renderer</a><a href="#off.off-2" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></li>
 <li class="tsd-description">
 <div class="tsd-parameters">
 <h4 class="tsd-parameters-title">Parameters</h4>
 <ul class="tsd-parameter-list">
 <li>
-<h5><span class="tsd-kind-parameter">eventMap</span>: <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><a href="../interfaces/EventMap.html" class="tsd-signature-type tsd-kind-Interface">EventMap</a></h5></li>
+<h5><span class="tsd-kind-parameter">eventMap</span>: <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><a href="../interfaces/EventMap.html" class="tsd-signature-type tsd-kind-interface">EventMap</a></h5></li>
 <li>
 <h5><code class="tsd-tag ts-flagOptional">Optional</code> <span class="tsd-kind-parameter">context</span>: <span class="tsd-signature-type">any</span></h5></li></ul></div>
-<h4 class="tsd-returns-title">Returns <a href="Renderer.html" class="tsd-signature-type tsd-kind-Class">Renderer</a></h4><aside class="tsd-sources">
+<h4 class="tsd-returns-title">Returns <a href="Renderer.html" class="tsd-signature-type tsd-kind-class">Renderer</a></h4><aside class="tsd-sources">
 <p>Inherited from ChildableComponent.off</p>
 <ul>
-<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.2/src/lib/utils/events.ts#L518">src/lib/utils/events.ts:518</a></li></ul></aside></li>
-<li class="tsd-signature tsd-anchor-link" id="off.off-3"><span class="tsd-kind-Call-signature">off</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">name</span>, <span class="tsd-kind-parameter">callback</span><span class="tsd-signature-symbol">?</span>, <span class="tsd-kind-parameter">context</span><span class="tsd-signature-symbol">?</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="Renderer.html" class="tsd-signature-type tsd-kind-Class">Renderer</a><a href="#off.off-3" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></li>
+<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.4/src/lib/utils/events.ts#L518">src/lib/utils/events.ts:518</a></li></ul></aside></li>
+<li class="tsd-signature tsd-anchor-link" id="off.off-3"><span class="tsd-kind-call-signature">off</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">name</span>, <span class="tsd-kind-parameter">callback</span><span class="tsd-signature-symbol">?</span>, <span class="tsd-kind-parameter">context</span><span class="tsd-signature-symbol">?</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="Renderer.html" class="tsd-signature-type tsd-kind-class">Renderer</a><a href="#off.off-3" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></li>
 <li class="tsd-description">
 <div class="tsd-parameters">
 <h4 class="tsd-parameters-title">Parameters</h4>
@@ -497,17 +497,17 @@ callbacks for all events.</p>
 <li>
 <h5><span class="tsd-kind-parameter">name</span>: <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></h5></li>
 <li>
-<h5><code class="tsd-tag ts-flagOptional">Optional</code> <span class="tsd-kind-parameter">callback</span>: <a href="../interfaces/EventCallback.html" class="tsd-signature-type tsd-kind-Interface">EventCallback</a></h5></li>
+<h5><code class="tsd-tag ts-flagOptional">Optional</code> <span class="tsd-kind-parameter">callback</span>: <a href="../interfaces/EventCallback.html" class="tsd-signature-type tsd-kind-interface">EventCallback</a></h5></li>
 <li>
 <h5><code class="tsd-tag ts-flagOptional">Optional</code> <span class="tsd-kind-parameter">context</span>: <span class="tsd-signature-type">any</span></h5></li></ul></div>
-<h4 class="tsd-returns-title">Returns <a href="Renderer.html" class="tsd-signature-type tsd-kind-Class">Renderer</a></h4><aside class="tsd-sources">
+<h4 class="tsd-returns-title">Returns <a href="Renderer.html" class="tsd-signature-type tsd-kind-class">Renderer</a></h4><aside class="tsd-sources">
 <p>Inherited from ChildableComponent.off</p>
 <ul>
-<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.2/src/lib/utils/events.ts#L519">src/lib/utils/events.ts:519</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.4/src/lib/utils/events.ts#L519">src/lib/utils/events.ts:519</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-is-inherited"><a id="on" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>on</span><a href="#on" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-is-inherited">
-<li class="tsd-signature tsd-anchor-link" id="on.on-1"><span class="tsd-kind-Call-signature">on</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">eventMap</span>, <span class="tsd-kind-parameter">context</span><span class="tsd-signature-symbol">?</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="Renderer.html" class="tsd-signature-type tsd-kind-Class">Renderer</a><a href="#on.on-1" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></li>
+<li class="tsd-signature tsd-anchor-link" id="on.on-1"><span class="tsd-kind-call-signature">on</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">eventMap</span>, <span class="tsd-kind-parameter">context</span><span class="tsd-signature-symbol">?</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="Renderer.html" class="tsd-signature-type tsd-kind-class">Renderer</a><a href="#on.on-1" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></li>
 <li class="tsd-description">
 <div class="tsd-comment tsd-typography"><p>Bind an event to a <code>callback</code> function. Passing <code>&quot;all&quot;</code> will bind
 the callback to all events fired.</p>
@@ -516,31 +516,31 @@ the callback to all events fired.</p>
 <h4 class="tsd-parameters-title">Parameters</h4>
 <ul class="tsd-parameter-list">
 <li>
-<h5><span class="tsd-kind-parameter">eventMap</span>: <a href="../interfaces/EventMap.html" class="tsd-signature-type tsd-kind-Interface">EventMap</a></h5></li>
+<h5><span class="tsd-kind-parameter">eventMap</span>: <a href="../interfaces/EventMap.html" class="tsd-signature-type tsd-kind-interface">EventMap</a></h5></li>
 <li>
 <h5><code class="tsd-tag ts-flagOptional">Optional</code> <span class="tsd-kind-parameter">context</span>: <span class="tsd-signature-type">any</span></h5></li></ul></div>
-<h4 class="tsd-returns-title">Returns <a href="Renderer.html" class="tsd-signature-type tsd-kind-Class">Renderer</a></h4><aside class="tsd-sources">
+<h4 class="tsd-returns-title">Returns <a href="Renderer.html" class="tsd-signature-type tsd-kind-class">Renderer</a></h4><aside class="tsd-sources">
 <p>Inherited from ChildableComponent.on</p>
 <ul>
-<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.2/src/lib/utils/events.ts#L429">src/lib/utils/events.ts:429</a></li></ul></aside></li>
-<li class="tsd-signature tsd-anchor-link" id="on.on-2"><span class="tsd-kind-Call-signature">on</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">eventMap</span>, <span class="tsd-kind-parameter">callback</span><span class="tsd-signature-symbol">?</span>, <span class="tsd-kind-parameter">context</span><span class="tsd-signature-symbol">?</span>, <span class="tsd-kind-parameter">priority</span><span class="tsd-signature-symbol">?</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="Renderer.html" class="tsd-signature-type tsd-kind-Class">Renderer</a><a href="#on.on-2" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></li>
+<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.4/src/lib/utils/events.ts#L429">src/lib/utils/events.ts:429</a></li></ul></aside></li>
+<li class="tsd-signature tsd-anchor-link" id="on.on-2"><span class="tsd-kind-call-signature">on</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">eventMap</span>, <span class="tsd-kind-parameter">callback</span><span class="tsd-signature-symbol">?</span>, <span class="tsd-kind-parameter">context</span><span class="tsd-signature-symbol">?</span>, <span class="tsd-kind-parameter">priority</span><span class="tsd-signature-symbol">?</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="Renderer.html" class="tsd-signature-type tsd-kind-class">Renderer</a><a href="#on.on-2" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></li>
 <li class="tsd-description">
 <div class="tsd-parameters">
 <h4 class="tsd-parameters-title">Parameters</h4>
 <ul class="tsd-parameter-list">
 <li>
-<h5><span class="tsd-kind-parameter">eventMap</span>: <a href="../interfaces/EventMap.html" class="tsd-signature-type tsd-kind-Interface">EventMap</a></h5></li>
+<h5><span class="tsd-kind-parameter">eventMap</span>: <a href="../interfaces/EventMap.html" class="tsd-signature-type tsd-kind-interface">EventMap</a></h5></li>
 <li>
-<h5><code class="tsd-tag ts-flagOptional">Optional</code> <span class="tsd-kind-parameter">callback</span>: <a href="../interfaces/EventCallback.html" class="tsd-signature-type tsd-kind-Interface">EventCallback</a></h5></li>
+<h5><code class="tsd-tag ts-flagOptional">Optional</code> <span class="tsd-kind-parameter">callback</span>: <a href="../interfaces/EventCallback.html" class="tsd-signature-type tsd-kind-interface">EventCallback</a></h5></li>
 <li>
 <h5><code class="tsd-tag ts-flagOptional">Optional</code> <span class="tsd-kind-parameter">context</span>: <span class="tsd-signature-type">any</span></h5></li>
 <li>
 <h5><code class="tsd-tag ts-flagOptional">Optional</code> <span class="tsd-kind-parameter">priority</span>: <span class="tsd-signature-type">number</span></h5></li></ul></div>
-<h4 class="tsd-returns-title">Returns <a href="Renderer.html" class="tsd-signature-type tsd-kind-Class">Renderer</a></h4><aside class="tsd-sources">
+<h4 class="tsd-returns-title">Returns <a href="Renderer.html" class="tsd-signature-type tsd-kind-class">Renderer</a></h4><aside class="tsd-sources">
 <p>Inherited from ChildableComponent.on</p>
 <ul>
-<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.2/src/lib/utils/events.ts#L430">src/lib/utils/events.ts:430</a></li></ul></aside></li>
-<li class="tsd-signature tsd-anchor-link" id="on.on-3"><span class="tsd-kind-Call-signature">on</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">name</span>, <span class="tsd-kind-parameter">callback</span>, <span class="tsd-kind-parameter">context</span><span class="tsd-signature-symbol">?</span>, <span class="tsd-kind-parameter">priority</span><span class="tsd-signature-symbol">?</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="Renderer.html" class="tsd-signature-type tsd-kind-Class">Renderer</a><a href="#on.on-3" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></li>
+<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.4/src/lib/utils/events.ts#L430">src/lib/utils/events.ts:430</a></li></ul></aside></li>
+<li class="tsd-signature tsd-anchor-link" id="on.on-3"><span class="tsd-kind-call-signature">on</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">name</span>, <span class="tsd-kind-parameter">callback</span>, <span class="tsd-kind-parameter">context</span><span class="tsd-signature-symbol">?</span>, <span class="tsd-kind-parameter">priority</span><span class="tsd-signature-symbol">?</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="Renderer.html" class="tsd-signature-type tsd-kind-class">Renderer</a><a href="#on.on-3" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></li>
 <li class="tsd-description">
 <div class="tsd-parameters">
 <h4 class="tsd-parameters-title">Parameters</h4>
@@ -548,19 +548,19 @@ the callback to all events fired.</p>
 <li>
 <h5><span class="tsd-kind-parameter">name</span>: <span class="tsd-signature-type">string</span></h5></li>
 <li>
-<h5><span class="tsd-kind-parameter">callback</span>: <a href="../interfaces/EventCallback.html" class="tsd-signature-type tsd-kind-Interface">EventCallback</a></h5></li>
+<h5><span class="tsd-kind-parameter">callback</span>: <a href="../interfaces/EventCallback.html" class="tsd-signature-type tsd-kind-interface">EventCallback</a></h5></li>
 <li>
 <h5><code class="tsd-tag ts-flagOptional">Optional</code> <span class="tsd-kind-parameter">context</span>: <span class="tsd-signature-type">any</span></h5></li>
 <li>
 <h5><code class="tsd-tag ts-flagOptional">Optional</code> <span class="tsd-kind-parameter">priority</span>: <span class="tsd-signature-type">number</span></h5></li></ul></div>
-<h4 class="tsd-returns-title">Returns <a href="Renderer.html" class="tsd-signature-type tsd-kind-Class">Renderer</a></h4><aside class="tsd-sources">
+<h4 class="tsd-returns-title">Returns <a href="Renderer.html" class="tsd-signature-type tsd-kind-class">Renderer</a></h4><aside class="tsd-sources">
 <p>Inherited from ChildableComponent.on</p>
 <ul>
-<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.2/src/lib/utils/events.ts#L436">src/lib/utils/events.ts:436</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.4/src/lib/utils/events.ts#L436">src/lib/utils/events.ts:436</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-is-inherited"><a id="once" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>once</span><a href="#once" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-is-inherited">
-<li class="tsd-signature tsd-anchor-link" id="once.once-1"><span class="tsd-kind-Call-signature">once</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">eventMap</span>, <span class="tsd-kind-parameter">context</span><span class="tsd-signature-symbol">?</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="Renderer.html" class="tsd-signature-type tsd-kind-Class">Renderer</a><a href="#once.once-1" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></li>
+<li class="tsd-signature tsd-anchor-link" id="once.once-1"><span class="tsd-kind-call-signature">once</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">eventMap</span>, <span class="tsd-kind-parameter">context</span><span class="tsd-signature-symbol">?</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="Renderer.html" class="tsd-signature-type tsd-kind-class">Renderer</a><a href="#once.once-1" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></li>
 <li class="tsd-description">
 <div class="tsd-comment tsd-typography"><p>Bind an event to only be triggered a single time. After the first time
 the callback is invoked, its listener will be removed. If multiple events
@@ -571,14 +571,14 @@ once for each event, not once for a combination of all events.</p>
 <h4 class="tsd-parameters-title">Parameters</h4>
 <ul class="tsd-parameter-list">
 <li>
-<h5><span class="tsd-kind-parameter">eventMap</span>: <a href="../interfaces/EventMap.html" class="tsd-signature-type tsd-kind-Interface">EventMap</a></h5></li>
+<h5><span class="tsd-kind-parameter">eventMap</span>: <a href="../interfaces/EventMap.html" class="tsd-signature-type tsd-kind-interface">EventMap</a></h5></li>
 <li>
 <h5><code class="tsd-tag ts-flagOptional">Optional</code> <span class="tsd-kind-parameter">context</span>: <span class="tsd-signature-type">any</span></h5></li></ul></div>
-<h4 class="tsd-returns-title">Returns <a href="Renderer.html" class="tsd-signature-type tsd-kind-Class">Renderer</a></h4><aside class="tsd-sources">
+<h4 class="tsd-returns-title">Returns <a href="Renderer.html" class="tsd-signature-type tsd-kind-class">Renderer</a></h4><aside class="tsd-sources">
 <p>Inherited from ChildableComponent.once</p>
 <ul>
-<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.2/src/lib/utils/events.ts#L487">src/lib/utils/events.ts:487</a></li></ul></aside></li>
-<li class="tsd-signature tsd-anchor-link" id="once.once-2"><span class="tsd-kind-Call-signature">once</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">name</span>, <span class="tsd-kind-parameter">callback</span>, <span class="tsd-kind-parameter">context</span><span class="tsd-signature-symbol">?</span>, <span class="tsd-kind-parameter">priority</span><span class="tsd-signature-symbol">?</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="Renderer.html" class="tsd-signature-type tsd-kind-Class">Renderer</a><a href="#once.once-2" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></li>
+<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.4/src/lib/utils/events.ts#L487">src/lib/utils/events.ts:487</a></li></ul></aside></li>
+<li class="tsd-signature tsd-anchor-link" id="once.once-2"><span class="tsd-kind-call-signature">once</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">name</span>, <span class="tsd-kind-parameter">callback</span>, <span class="tsd-kind-parameter">context</span><span class="tsd-signature-symbol">?</span>, <span class="tsd-kind-parameter">priority</span><span class="tsd-signature-symbol">?</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="Renderer.html" class="tsd-signature-type tsd-kind-class">Renderer</a><a href="#once.once-2" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></li>
 <li class="tsd-description">
 <div class="tsd-parameters">
 <h4 class="tsd-parameters-title">Parameters</h4>
@@ -586,28 +586,28 @@ once for each event, not once for a combination of all events.</p>
 <li>
 <h5><span class="tsd-kind-parameter">name</span>: <span class="tsd-signature-type">string</span></h5></li>
 <li>
-<h5><span class="tsd-kind-parameter">callback</span>: <a href="../interfaces/EventCallback.html" class="tsd-signature-type tsd-kind-Interface">EventCallback</a></h5></li>
+<h5><span class="tsd-kind-parameter">callback</span>: <a href="../interfaces/EventCallback.html" class="tsd-signature-type tsd-kind-interface">EventCallback</a></h5></li>
 <li>
 <h5><code class="tsd-tag ts-flagOptional">Optional</code> <span class="tsd-kind-parameter">context</span>: <span class="tsd-signature-type">any</span></h5></li>
 <li>
 <h5><code class="tsd-tag ts-flagOptional">Optional</code> <span class="tsd-kind-parameter">priority</span>: <span class="tsd-signature-type">any</span></h5></li></ul></div>
-<h4 class="tsd-returns-title">Returns <a href="Renderer.html" class="tsd-signature-type tsd-kind-Class">Renderer</a></h4><aside class="tsd-sources">
+<h4 class="tsd-returns-title">Returns <a href="Renderer.html" class="tsd-signature-type tsd-kind-class">Renderer</a></h4><aside class="tsd-sources">
 <p>Inherited from ChildableComponent.once</p>
 <ul>
-<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.2/src/lib/utils/events.ts#L488">src/lib/utils/events.ts:488</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.4/src/lib/utils/events.ts#L488">src/lib/utils/events.ts:488</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-is-inherited"><a id="removeAllComponents" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>remove<wbr/>All<wbr/>Components</span><a href="#removeAllComponents" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-is-inherited">
-<li class="tsd-signature tsd-anchor-link" id="removeAllComponents.removeAllComponents-1"><span class="tsd-kind-Call-signature">remove<wbr/>All<wbr/>Components</span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span><a href="#removeAllComponents.removeAllComponents-1" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></li>
+<li class="tsd-signature tsd-anchor-link" id="removeAllComponents.removeAllComponents-1"><span class="tsd-kind-call-signature">remove<wbr/>All<wbr/>Components</span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span><a href="#removeAllComponents.removeAllComponents-1" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></li>
 <li class="tsd-description">
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <p>Inherited from ChildableComponent.removeAllComponents</p>
 <ul>
-<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.2/src/lib/utils/component.ts#L262">src/lib/utils/component.ts:262</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.4/src/lib/utils/component.ts#L262">src/lib/utils/component.ts:262</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-is-inherited"><a id="removeComponent" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>remove<wbr/>Component</span><a href="#removeComponent" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-is-inherited">
-<li class="tsd-signature tsd-anchor-link" id="removeComponent.removeComponent-1"><span class="tsd-kind-Call-signature">remove<wbr/>Component</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">name</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type ">RendererComponent</span><a href="#removeComponent.removeComponent-1" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></li>
+<li class="tsd-signature tsd-anchor-link" id="removeComponent.removeComponent-1"><span class="tsd-kind-call-signature">remove<wbr/>Component</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">name</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type ">RendererComponent</span><a href="#removeComponent.removeComponent-1" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></li>
 <li class="tsd-description">
 <div class="tsd-parameters">
 <h4 class="tsd-parameters-title">Parameters</h4>
@@ -617,11 +617,11 @@ once for each event, not once for a combination of all events.</p>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type ">RendererComponent</span></h4><aside class="tsd-sources">
 <p>Inherited from ChildableComponent.removeComponent</p>
 <ul>
-<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.2/src/lib/utils/component.ts#L250">src/lib/utils/component.ts:250</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.4/src/lib/utils/component.ts#L250">src/lib/utils/component.ts:250</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="render" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>render</span><a href="#render" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures">
-<li class="tsd-signature tsd-anchor-link" id="render.render-1"><span class="tsd-kind-Call-signature">render</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">project</span>, <span class="tsd-kind-parameter">outputDirectory</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type ">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span><a href="#render.render-1" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></li>
+<li class="tsd-signature tsd-anchor-link" id="render.render-1"><span class="tsd-kind-call-signature">render</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">project</span>, <span class="tsd-kind-parameter">outputDirectory</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type ">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span><a href="#render.render-1" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></li>
 <li class="tsd-description">
 <div class="tsd-comment tsd-typography"><p>Render the given project reflection to the specified output directory.</p>
 </div>
@@ -629,7 +629,7 @@ once for each event, not once for a combination of all events.</p>
 <h4 class="tsd-parameters-title">Parameters</h4>
 <ul class="tsd-parameter-list">
 <li>
-<h5><span class="tsd-kind-parameter">project</span>: <a href="../modules/Models.html" class="tsd-signature-type tsd-kind-Namespace">Models</a><span class="tsd-signature-symbol">.</span><a href="Models.ProjectReflection.html" class="tsd-signature-type tsd-kind-Class">ProjectReflection</a></h5>
+<h5><span class="tsd-kind-parameter">project</span>: <a href="../modules/Models.html" class="tsd-signature-type tsd-kind-namespace">Models</a><span class="tsd-signature-symbol">.</span><a href="Models.ProjectReflection.html" class="tsd-signature-type tsd-kind-class">ProjectReflection</a></h5>
 <div class="tsd-comment tsd-typography"><p>The project that should be rendered.</p>
 </div></li>
 <li>
@@ -638,11 +638,11 @@ once for each event, not once for a combination of all events.</p>
 </div></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type ">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.2/src/lib/output/renderer.ts#L226">src/lib/output/renderer.ts:226</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.4/src/lib/output/renderer.ts#L226">src/lib/output/renderer.ts:226</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-is-inherited"><a id="stopListening" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>stop<wbr/>Listening</span><a href="#stopListening" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-is-inherited">
-<li class="tsd-signature tsd-anchor-link" id="stopListening.stopListening-1"><span class="tsd-kind-Call-signature">stop<wbr/>Listening</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">obj</span><span class="tsd-signature-symbol">?</span>, <span class="tsd-kind-parameter">name</span><span class="tsd-signature-symbol">?</span>, <span class="tsd-kind-parameter">callback</span><span class="tsd-signature-symbol">?</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="Renderer.html" class="tsd-signature-type tsd-kind-Class">Renderer</a><a href="#stopListening.stopListening-1" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></li>
+<li class="tsd-signature tsd-anchor-link" id="stopListening.stopListening-1"><span class="tsd-kind-call-signature">stop<wbr/>Listening</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">obj</span><span class="tsd-signature-symbol">?</span>, <span class="tsd-kind-parameter">name</span><span class="tsd-signature-symbol">?</span>, <span class="tsd-kind-parameter">callback</span><span class="tsd-signature-symbol">?</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="Renderer.html" class="tsd-signature-type tsd-kind-class">Renderer</a><a href="#stopListening.stopListening-1" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></li>
 <li class="tsd-description">
 <div class="tsd-comment tsd-typography"><p>Tell this object to stop listening to either specific events ... or
 to every object it&#39;s currently listening to.</p>
@@ -651,19 +651,19 @@ to every object it&#39;s currently listening to.</p>
 <h4 class="tsd-parameters-title">Parameters</h4>
 <ul class="tsd-parameter-list">
 <li>
-<h5><code class="tsd-tag ts-flagOptional">Optional</code> <span class="tsd-kind-parameter">obj</span>: <a href="EventDispatcher.html" class="tsd-signature-type tsd-kind-Class">EventDispatcher</a></h5></li>
+<h5><code class="tsd-tag ts-flagOptional">Optional</code> <span class="tsd-kind-parameter">obj</span>: <a href="EventDispatcher.html" class="tsd-signature-type tsd-kind-class">EventDispatcher</a></h5></li>
 <li>
-<h5><code class="tsd-tag ts-flagOptional">Optional</code> <span class="tsd-kind-parameter">name</span>: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><a href="../interfaces/EventMap.html" class="tsd-signature-type tsd-kind-Interface">EventMap</a></h5></li>
+<h5><code class="tsd-tag ts-flagOptional">Optional</code> <span class="tsd-kind-parameter">name</span>: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><a href="../interfaces/EventMap.html" class="tsd-signature-type tsd-kind-interface">EventMap</a></h5></li>
 <li>
-<h5><code class="tsd-tag ts-flagOptional">Optional</code> <span class="tsd-kind-parameter">callback</span>: <a href="../interfaces/EventCallback.html" class="tsd-signature-type tsd-kind-Interface">EventCallback</a></h5></li></ul></div>
-<h4 class="tsd-returns-title">Returns <a href="Renderer.html" class="tsd-signature-type tsd-kind-Class">Renderer</a></h4><aside class="tsd-sources">
+<h5><code class="tsd-tag ts-flagOptional">Optional</code> <span class="tsd-kind-parameter">callback</span>: <a href="../interfaces/EventCallback.html" class="tsd-signature-type tsd-kind-interface">EventCallback</a></h5></li></ul></div>
+<h4 class="tsd-returns-title">Returns <a href="Renderer.html" class="tsd-signature-type tsd-kind-class">Renderer</a></h4><aside class="tsd-sources">
 <p>Inherited from ChildableComponent.stopListening</p>
 <ul>
-<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.2/src/lib/utils/events.ts#L604">src/lib/utils/events.ts:604</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.4/src/lib/utils/events.ts#L604">src/lib/utils/events.ts:604</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-is-inherited"><a id="trigger" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>trigger</span><a href="#trigger" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-is-inherited">
-<li class="tsd-signature tsd-anchor-link" id="trigger.trigger-1"><span class="tsd-kind-Call-signature">trigger</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">name</span>, <span class="tsd-signature-symbol">...</span><span class="tsd-kind-parameter">args</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="Renderer.html" class="tsd-signature-type tsd-kind-Class">Renderer</a><a href="#trigger.trigger-1" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></li>
+<li class="tsd-signature tsd-anchor-link" id="trigger.trigger-1"><span class="tsd-kind-call-signature">trigger</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">name</span>, <span class="tsd-signature-symbol">...</span><span class="tsd-kind-parameter">args</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="Renderer.html" class="tsd-signature-type tsd-kind-class">Renderer</a><a href="#trigger.trigger-1" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></li>
 <li class="tsd-description">
 <div class="tsd-comment tsd-typography"><p>Trigger one or many events, firing all bound callbacks. Callbacks are
 passed the same arguments as <code>trigger</code> is, apart from the event name
@@ -674,13 +674,13 @@ receive the true name of the event as the first argument).</p>
 <h4 class="tsd-parameters-title">Parameters</h4>
 <ul class="tsd-parameter-list">
 <li>
-<h5><span class="tsd-kind-parameter">name</span>: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><a href="../interfaces/EventMap.html" class="tsd-signature-type tsd-kind-Interface">EventMap</a><span class="tsd-signature-symbol"> | </span><a href="Event.html" class="tsd-signature-type tsd-kind-Class">Event</a></h5></li>
+<h5><span class="tsd-kind-parameter">name</span>: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><a href="../interfaces/EventMap.html" class="tsd-signature-type tsd-kind-interface">EventMap</a><span class="tsd-signature-symbol"> | </span><a href="Event.html" class="tsd-signature-type tsd-kind-class">Event</a></h5></li>
 <li>
 <h5><code class="tsd-tag ts-flagRest">Rest</code> <span class="tsd-signature-symbol">...</span><span class="tsd-kind-parameter">args</span>: <span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span></h5></li></ul></div>
-<h4 class="tsd-returns-title">Returns <a href="Renderer.html" class="tsd-signature-type tsd-kind-Class">Renderer</a></h4><aside class="tsd-sources">
+<h4 class="tsd-returns-title">Returns <a href="Renderer.html" class="tsd-signature-type tsd-kind-class">Renderer</a></h4><aside class="tsd-sources">
 <p>Inherited from ChildableComponent.trigger</p>
 <ul>
-<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.2/src/lib/utils/events.ts#L640">src/lib/utils/events.ts:640</a></li></ul></aside></li></ul></section></section></div>
+<li>Defined in <a href="https://github.com/TypeStrong/typedoc/blob/v0.24.4/src/lib/utils/events.ts#L640">src/lib/utils/events.ts:640</a></li></ul></aside></li></ul></section></section></div>
 <div class="col-sidebar">
 <div class="page-menu">
 <div class="tsd-navigation settings">
@@ -738,7 +738,7 @@ receive the true name of the event as the first argument).</p>
 <li><a href="#stopListening" class="tsd-is-inherited"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-2048-path"></use><use href="#icon-2048-text"></use></svg><span>stop<wbr/>Listening</span></a></li>
 <li><a href="#trigger" class="tsd-is-inherited"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-2048-path"></use><use href="#icon-2048-text"></use></svg><span>trigger</span></a></li></ul></div></details></div>
 <div class="site-menu">
-<nav class="tsd-navigation"><a href="../modules.html"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><rect fill="var(--color-icon-background)" stroke="var(--color-ts-namespace)" stroke-width="1.5" x="1" y="1" width="22" height="22" rx="6" id="icon-4-path"></rect><path d="M9.33 16V7.24H10.77L13.446 14.74C13.43 14.54 13.41 14.296 13.386 14.008C13.37 13.712 13.354 13.404 13.338 13.084C13.33 12.756 13.326 12.448 13.326 12.16V7.24H14.37V16H12.93L10.266 8.5C10.282 8.692 10.298 8.936 10.314 9.232C10.33 9.52 10.342 9.828 10.35 10.156C10.366 10.476 10.374 10.784 10.374 11.08V16H9.33Z" fill="var(--color-text)" id="icon-4-text"></path></svg><span>Type<wbr/>Doc -<wbr/> v0.24.2</span></a>
+<nav class="tsd-navigation"><a href="../modules.html"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><rect fill="var(--color-icon-background)" stroke="var(--color-ts-namespace)" stroke-width="1.5" x="1" y="1" width="22" height="22" rx="6" id="icon-4-path"></rect><path d="M9.33 16V7.24H10.77L13.446 14.74C13.43 14.54 13.41 14.296 13.386 14.008C13.37 13.712 13.354 13.404 13.338 13.084C13.33 12.756 13.326 12.448 13.326 12.16V7.24H14.37V16H12.93L10.266 8.5C10.282 8.692 10.298 8.936 10.314 9.232C10.33 9.52 10.342 9.828 10.35 10.156C10.366 10.476 10.374 10.784 10.374 11.08V16H9.33Z" fill="var(--color-text)" id="icon-4-text"></path></svg><span>Type<wbr/>Doc -<wbr/> v0.24.4</span></a>
 <ul class="tsd-small-nested-navigation">
 <li>
 <details class="tsd-index-accordion" data-key="JSONOutput"><summary class="tsd-accordion-summary"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M4.93896 8.531L12 15.591L19.061 8.531L16.939 6.409L12 11.349L7.06098 6.409L4.93896 8.531Z" fill="var(--color-text)"></path></svg><a href="../modules/JSONOutput.html"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-4-path"></use><use href="#icon-4-text"></use></svg><span>JSONOutput</span></a></summary>

@@ -283,6 +283,64 @@
 			"description": "Defines links to be included in the sidebar.",
 			"default": {}
 		},
+		"navigation": {
+			"description": "Determines how the navigation sidebar is organized.",
+			"anyOf": [
+				{
+					"type": "boolean"
+				},
+				{
+					"type": "object",
+					"properties": {
+						"includeCategories": {
+							"type": "boolean"
+						},
+						"includeGroups": {
+							"type": "boolean"
+						}
+					},
+					"additionalProperties": false
+				}
+			]
+		},
+		"visibilityFilters": {
+			"description": "Specify the default visibility for builtin filters and additional filters according to modifier tags.",
+			"default": {
+				"protected": false,
+				"private": false,
+				"inherited": true,
+				"external": false
+			},
+			"type": "object",
+			"properties": {
+				"protected": {
+					"type": "boolean"
+				},
+				"private": {
+					"type": "boolean"
+				},
+				"inherited": {
+					"type": "boolean"
+				},
+				"external": {
+					"type": "boolean"
+				}
+			},
+			"patternProperties": {
+				"^@": {
+					"type": "boolean"
+				}
+			},
+			"additionalProperties": false
+		},
+		"searchCategoryBoosts": {
+			"description": "Configure search to give a relevance boost to selected categories",
+			"default": {}
+		},
+		"searchGroupBoosts": {
+			"description": "Configure search to give a relevance boost to selected kinds (eg \"class\")",
+			"default": {}
+		},
 		"jsDocCompatibility": {
 			"description": "Sets compatibility options for comment parsing that increase similarity with JSDoc comments.",
 			"anyOf": [
@@ -407,6 +465,29 @@
 			},
 			"default": []
 		},
+		"groupOrder": {
+			"description": "Specify the order in which groups appear. * indicates the relative order for groups not in the list.",
+			"type": "array",
+			"items": {
+				"type": "string"
+			},
+			"default": [
+				"References",
+				"Modules",
+				"Namespaces",
+				"Enumerations",
+				"Enumeration Members",
+				"Classes",
+				"Interfaces",
+				"Type Aliases",
+				"Constructors",
+				"Properties",
+				"Variables",
+				"Functions",
+				"Accessors",
+				"Methods"
+			]
+		},
 		"sort": {
 			"description": "Specify the sort strategy for documented values.",
 			"type": "array",
@@ -437,44 +518,6 @@
 				"type": "string"
 			},
 			"default": []
-		},
-		"visibilityFilters": {
-			"description": "Specify the default visibility for builtin filters and additional filters according to modifier tags.",
-			"default": {
-				"protected": false,
-				"private": false,
-				"inherited": true,
-				"external": false
-			},
-			"type": "object",
-			"properties": {
-				"protected": {
-					"type": "boolean"
-				},
-				"private": {
-					"type": "boolean"
-				},
-				"inherited": {
-					"type": "boolean"
-				},
-				"external": {
-					"type": "boolean"
-				}
-			},
-			"patternProperties": {
-				"^@": {
-					"type": "boolean"
-				}
-			},
-			"additionalProperties": false
-		},
-		"searchCategoryBoosts": {
-			"description": "Configure search to give a relevance boost to selected categories",
-			"default": {}
-		},
-		"searchGroupBoosts": {
-			"description": "Configure search to give a relevance boost to selected kinds (eg \"class\")",
-			"default": {}
 		},
 		"watch": {
 			"description": "Watch files for changes and rebuild docs on change.",

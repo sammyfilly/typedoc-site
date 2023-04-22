@@ -133,7 +133,11 @@ Defaults to 'Other'</p>
 <h2 id="categoryorder" tabindex="-1">categoryOrder</h2>
 <pre class="language-json"><code class="language-json"><span class="token comment">// typedoc.json</span><br><span class="token punctuation">{</span><br>    <span class="token property">"categoryOrder"</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">"Category Name"</span><span class="token punctuation">,</span> <span class="token string">"Other Category"</span><span class="token punctuation">,</span> <span class="token string">"*"</span><span class="token punctuation">]</span><br><span class="token punctuation">}</span></code></pre>
 <p>Array option which allows overriding the order categories display in. A string of <code>*</code> indicates where categories that are not in the list should appear.</p>
-<p>By default, categories are displayed alphabetically. If unknown categories are found, they will be listed at the end by default.</p>
+<p>Categories whose order is not specified will be sorted alphabetically. If <code>*</code> is not specified and unknown categories are found, they will be listed at the end by default.</p>
+<h2 id="grouporder" tabindex="-1">groupOrder</h2>
+<pre class="language-json"><code class="language-json"><span class="token comment">// typedoc.json</span><br><span class="token punctuation">{</span><br>    <span class="token property">"groupOrder"</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">"Variables"</span><span class="token punctuation">,</span> <span class="token string">"Functions"</span><span class="token punctuation">,</span> <span class="token string">"*"</span><span class="token punctuation">]</span><br><span class="token punctuation">}</span></code></pre>
+<p>Array option which allows overriding the order groups display in. A string of <code>*</code> indicates where groups that are not in the list should appear.</p>
+<p>Groups whose order is not specified will be sorted alphabetically. If <code>*</code> is not specified and unknown groups are found, they will be listed at the end by default.</p>
 <h2 id="sort" tabindex="-1">sort</h2>
 <pre class="language-bash"><code class="language-bash">$ typedoc <span class="token parameter variable">--sort</span> static-first <span class="token parameter variable">--sort</span> alphabetical</code></pre>
 <p>Specifies the sort order for members. Sorting strategies will be applied in order.

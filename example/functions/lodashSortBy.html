@@ -24,14 +24,12 @@ running each element in a collection through each iteratee. This method
 performs a stable sort, that is, it preserves the original sort order of
 equal elements. The iteratees are invoked with one argument: (value).</p>
 
-<h3>Returns</h3><p>Returns the new sorted array.</p>
-
 <h3>Example</h3><pre><code class="language-ts"><span class="hl-1">var</span><span class="hl-4"> </span><span class="hl-2">users</span><span class="hl-4"> = [</span><br/><span class="hl-4">  { </span><span class="hl-7">&#39;user&#39;</span><span class="hl-2">:</span><span class="hl-4"> </span><span class="hl-7">&#39;fred&#39;</span><span class="hl-4">,   </span><span class="hl-7">&#39;age&#39;</span><span class="hl-2">:</span><span class="hl-4"> </span><span class="hl-8">48</span><span class="hl-4"> },</span><br/><span class="hl-4">  { </span><span class="hl-7">&#39;user&#39;</span><span class="hl-2">:</span><span class="hl-4"> </span><span class="hl-7">&#39;barney&#39;</span><span class="hl-4">, </span><span class="hl-7">&#39;age&#39;</span><span class="hl-2">:</span><span class="hl-4"> </span><span class="hl-8">36</span><span class="hl-4"> },</span><br/><span class="hl-4">  { </span><span class="hl-7">&#39;user&#39;</span><span class="hl-2">:</span><span class="hl-4"> </span><span class="hl-7">&#39;fred&#39;</span><span class="hl-4">,   </span><span class="hl-7">&#39;age&#39;</span><span class="hl-2">:</span><span class="hl-4"> </span><span class="hl-8">42</span><span class="hl-4"> },</span><br/><span class="hl-4">  { </span><span class="hl-7">&#39;user&#39;</span><span class="hl-2">:</span><span class="hl-4"> </span><span class="hl-7">&#39;barney&#39;</span><span class="hl-4">, </span><span class="hl-7">&#39;age&#39;</span><span class="hl-2">:</span><span class="hl-4"> </span><span class="hl-8">34</span><span class="hl-4"> }</span><br/><span class="hl-4">];</span><br/><br/><span class="hl-2">_</span><span class="hl-4">.</span><span class="hl-5">sortBy</span><span class="hl-4">(</span><span class="hl-2">users</span><span class="hl-4">, </span><span class="hl-1">function</span><span class="hl-4">(</span><span class="hl-2">o</span><span class="hl-4">) { </span><span class="hl-3">return</span><span class="hl-4"> </span><span class="hl-2">o</span><span class="hl-4">.</span><span class="hl-2">user</span><span class="hl-4">; });</span><br/><span class="hl-0">// =&gt; objects for [[&#39;barney&#39;, 36], [&#39;barney&#39;, 34], [&#39;fred&#39;, 48], [&#39;fred&#39;, 42]]</span><br/><br/><span class="hl-2">_</span><span class="hl-4">.</span><span class="hl-5">sortBy</span><span class="hl-4">(</span><span class="hl-2">users</span><span class="hl-4">, [</span><span class="hl-7">&#39;user&#39;</span><span class="hl-4">, </span><span class="hl-7">&#39;age&#39;</span><span class="hl-4">]);</span><br/><span class="hl-0">// =&gt; objects for [[&#39;barney&#39;, 34], [&#39;barney&#39;, 36], [&#39;fred&#39;, 42], [&#39;fred&#39;, 48]]</span><br/><br/><span class="hl-2">_</span><span class="hl-4">.</span><span class="hl-5">sortBy</span><span class="hl-4">(</span><span class="hl-2">users</span><span class="hl-4">, </span><span class="hl-7">&#39;user&#39;</span><span class="hl-4">, </span><span class="hl-1">function</span><span class="hl-4">(</span><span class="hl-2">o</span><span class="hl-4">) {</span><br/><span class="hl-4">  </span><span class="hl-3">return</span><span class="hl-4"> </span><span class="hl-2">Math</span><span class="hl-4">.</span><span class="hl-5">floor</span><span class="hl-4">(</span><span class="hl-2">o</span><span class="hl-4">.</span><span class="hl-2">age</span><span class="hl-4"> / </span><span class="hl-8">10</span><span class="hl-4">);</span><br/><span class="hl-4">});</span><br/><span class="hl-0">// =&gt; objects for [[&#39;barney&#39;, 36], [&#39;barney&#39;, 34], [&#39;fred&#39;, 48], [&#39;fred&#39;, 42]]</span>
-</code></pre>
+</code><button>Copy</button></pre>
 </div>
-<section class="tsd-panel tsd-type-parameters">
+<section class="tsd-panel">
 <h4>Type Parameters</h4>
-<ul class="tsd-type-parameters">
+<ul class="tsd-type-parameter-list">
 <li>
 <h4><span class="tsd-kind-type-parameter">T</span></h4></li></ul></section>
 <div class="tsd-parameters">
@@ -45,7 +43,8 @@ equal elements. The iteratees are invoked with one argument: (value).</p>
 <h5><code class="tsd-tag ts-flagOptional">Optional</code> <code class="tsd-tag ts-flagRest">Rest</code> <span class="tsd-signature-symbol">...</span><span class="tsd-kind-parameter">iteratees</span>: <span class="tsd-signature-type ">Many</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type ">ListIteratee</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type tsd-kind-type-parameter">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span></h5>
 <div class="tsd-comment tsd-typography"><p>The iteratees to sort by, specified individually or in arrays.</p>
 </div></li></ul></div>
-<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type tsd-kind-type-parameter">T</span><span class="tsd-signature-symbol">[]</span></h4><aside class="tsd-sources">
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type tsd-kind-type-parameter">T</span><span class="tsd-signature-symbol">[]</span></h4><p>Returns the new sorted array.</p>
+<aside class="tsd-sources">
 <ul>
 <li>Defined in example/node_modules/@types/lodash/common/collection.d.ts:1900</li></ul></aside></li>
 <li class="tsd-signature tsd-anchor-link" id="lodashSortBy-1"><span class="tsd-kind-call-signature">lodash<wbr/>Sort<wbr/>By</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type tsd-kind-type-parameter">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">collection</span>, <span class="tsd-signature-symbol">...</span><span class="tsd-kind-parameter">iteratees</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type tsd-kind-type-parameter">T</span><span class="tsd-signature-symbol">[</span><span class="tsd-signature-symbol">keyof </span><span class="tsd-signature-type tsd-kind-type-parameter">T</span><span class="tsd-signature-symbol">]</span><span class="tsd-signature-symbol">[]</span><a href="#lodashSortBy-1" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-anchor-a"></use><use href="#icon-anchor-b"></use><use href="#icon-anchor-c"></use></svg></a></li>
@@ -53,9 +52,9 @@ equal elements. The iteratees are invoked with one argument: (value).</p>
 <div class="tsd-comment tsd-typography">
 <h3>See</h3><p>_.sortBy</p>
 </div>
-<section class="tsd-panel tsd-type-parameters">
+<section class="tsd-panel">
 <h4>Type Parameters</h4>
-<ul class="tsd-type-parameters">
+<ul class="tsd-type-parameter-list">
 <li>
 <h4><span class="tsd-kind-type-parameter">T</span><span class="tsd-signature-symbol"> extends </span><span class="tsd-signature-type">object</span></h4></li></ul></section>
 <div class="tsd-parameters">

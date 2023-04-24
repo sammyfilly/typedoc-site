@@ -355,6 +355,12 @@
 						},
 						"exampleTag": {
 							"type": "boolean"
+						},
+						"inheritDocTag": {
+							"type": "boolean"
+						},
+						"ignoreUnescapedBraces": {
+							"type": "boolean"
 						}
 					},
 					"additionalProperties": false

@@ -135,7 +135,7 @@ Entry points can be handled in one of three ways, see <a href="#entrypointstrate
 <h3 id="expand-(default-prior-to-v0.22.0)" tabindex="-1">expand (default prior to v0.22.0)</h3>
 <p>Expects all entry points to be contained within the root level tsconfig project. If a directory is given, files within it are recursively expanded. Effectively, this will make a separate page for each individual TypeScript file.</p>
 <h3 id="packages" tabindex="-1">packages</h3>
-<p>Expects all entry points to be directories to run TypeDoc within. After each entry point has been run through TypeDoc, the projects will be merged together and rendered to a single site. Each package may have its own set of TypeDoc
+<p>Expects all entry points to be directories to <em>effectively</em> run TypeDoc within. After each entry point has been converted by TypeDoc to a JSON model, the projects will be merged together and rendered to a single site or JSON output. Each package may have its own set of TypeDoc
 configuration, but <code>plugins</code> within sub-projects will <em>not</em> be loaded. See <a href="https://github.com/Gerrit0/typedoc-packages-example">Gerrit0/typedoc-packages-example</a> for an example monorepo which uses this option.</p>
 <p>Configuration specified in the root level project will <em>not</em> be copied to child projects.</p>
 <h3 id="merge" tabindex="-1">merge</h3>
